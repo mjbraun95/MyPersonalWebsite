@@ -7,6 +7,10 @@ body {
     padding-bottom: 50px;
 }
 
+div {
+    border:2px solid #000000;
+}
+
 img {
     height: auto;
 }
@@ -149,7 +153,7 @@ p {
   
   /* If you want the content centered horizontally and vertically */
   .centered {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
