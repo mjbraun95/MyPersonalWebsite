@@ -9,6 +9,7 @@
     <p style="padding-bottom: 25px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
+    </p>
     <div class="column">
         <div class="row">
             <img src="images/Lion400.png" alt="3D Printed Lion" style="width:100%">
@@ -21,7 +22,7 @@
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
 
-    </p>
+
 </div>
 </body>
 </html>
