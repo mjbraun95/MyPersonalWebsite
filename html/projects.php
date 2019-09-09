@@ -13,10 +13,10 @@
     <figure class="half" style="display:flex">
     <!-- <div class="column">
         <div class="row"> -->
+        <img src="images/3DPrinter400.png"style="height:400px">
         <img src="images/Lion400.png" style="height:400px">
         <!-- </div> -->
         <!-- <div class="row"> -->
-        <img src="images/3DPrinter400.png"style="height:400px">
         <!-- </div> -->
     </figure>
     </div>
