@@ -6,7 +6,7 @@
    content="0; url=https://github.com/mjbraun95">
 </head>
 <body>
-   <p>The page has moved to:
-   <a href="https://github.com/mjbraun95">this page</a></p>
+   <p>Redirecting to https://github.com/mjbraun95...:
+   <!-- <a href="https://github.com/mjbraun95"></a></p> -->
 </body>
 </html>
