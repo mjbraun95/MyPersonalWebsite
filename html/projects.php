@@ -12,8 +12,8 @@
         <div class="half" style="display:flex; ">
         <!-- <div class="column">
             <div class="row"> -->
-            <img src="images/3DPrinter400.png"style="height:360px">
-            <img src="images/Lion400.png" style="height:360px">
+            <img src="images/3DPrinter400.png"style="height:360px; text-align: left;">
+            <img src="images/Lion400.png" style="height:360px; text-align: right;">
             <!-- </div> -->
             <!-- <div class="row"> -->
             <!-- </div> -->
