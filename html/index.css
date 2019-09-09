@@ -129,7 +129,7 @@ p {
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -140,13 +140,11 @@ p {
   /* Control the left side */
   .left {
     left: 0;
-    background-color: #111;
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    background-color: red;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -159,7 +157,7 @@ p {
   }
   
   /* Style the image inside the centered container, if needed */
-  .centered img {
+  /* .centered img {
     width: 150px;
     border-radius: 50%;
-  }
+  } */
