@@ -5,12 +5,19 @@
 <?php include('navbar.php'); ?>
 
 <style>
-  div {
+  div.left {
     border:2px solid #000000;
     background: rgb(0,0,0);
     color: rgb(58,58,58);
     /* width: 100px; */
-    /* float: right; */
+    float: left;
+  }
+  div.right {
+    border:2px solid #000000;
+    background: rgb(0,0,0);
+    color: rgb(58,58,58);
+    /* width: 100px; */
+    float: right;
   }
 </style>
 <div class="content">
@@ -23,22 +30,24 @@
             <img src="images/3DPrinter400.png"style="height:360px; float: right;">
             <img src="images/Lion400.png" style="height:360px; ">
         </div> -->
-  <div>
-    <!-- <div class="centered"> -->
-    <img src="images/3DPrinter400.png" style="height:360px; float:left;">
-  </div>
+    <div class="left">
+        <!-- <div class="centered"> -->
+        <img src="images/3DPrinter400.png" style="height:360px;">
+    </div>
 
-  <div>
+    <div class="right">
     <!-- <div class="centered"> -->
-    <img src="images/Lion400.png" style="height:360px; float:right">
-  </div>
+        <img src="images/Lion400.png" style="height:360px;">
+    </div>
     </p>
     <!-- </div> -->
         <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
 
-
+    <video controls>
+        <source src="images/TweetHeat.mp4" type="video/mp4">
+    </video> 
     <!-- </div> -->
 </div>
 </body>
