@@ -9,14 +9,24 @@
     <p style="padding-bottom: 25px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
-        <div class="half" style="display:flex; ">
-        <!-- <div class="column">
-            <div class="row"> -->
-            <img src="images/3DPrinter400.png"style="height:360px; text-align: left;">
-            <img src="images/Lion400.png" style="height:360px; text-align: right;">
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!-- </div> -->
+        <!-- <div class="half" style="display:flex; ">
+            <img src="images/3DPrinter400.png"style="height:360px; float: right;">
+            <img src="images/Lion400.png" style="height:360px; ">
+        </div> -->
+        <div class="split left">
+        <div class="centered">
+            <img src="images/3DPrinter400.png" style="height:360px;">
+            <h2>Jane Flex</h2>
+            <p>Some text.</p>
+        </div>
+        </div>
+
+        <div class="split right">
+        <div class="centered">
+            <img src="images/Lion400.png" style="height:360px;">
+            <h2>John Doe</h2>
+            <p>Some text here too.</p>
+        </div>
         </div>
     </p>
     <!-- </div> -->
