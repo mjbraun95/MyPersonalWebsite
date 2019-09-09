@@ -9,11 +9,11 @@
     <p style="padding-bottom: 25px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
-        <div class="half" style="display:flex">
+        <div class="half" style="display:flex; ">
         <!-- <div class="column">
             <div class="row"> -->
-            <img src="images/3DPrinter400.png"style="height:400px">
-            <img src="images/Lion400.png" style="height:400px">
+            <img src="images/3DPrinter400.png"style="height:360px">
+            <img src="images/Lion400.png" style="height:360px">
             <!-- </div> -->
             <!-- <div class="row"> -->
             <!-- </div> -->
