@@ -46,7 +46,7 @@
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
 
     <video controls>
-        <source src="images/TweetHeat.mp4" type="video/mp4" style="height:720px;">
+        <source src="images/TweetHeat.mp4" type="video/mp4" style="height:360px;">
     </video> 
     <!-- </div> -->
 </div>
