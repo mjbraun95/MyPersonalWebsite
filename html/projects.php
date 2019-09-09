@@ -11,7 +11,7 @@
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
     <div class="row">
         <div class="column">
-            <img src="images/Lion400.png" class="rotate" alt="3D Printed Lion" style="width:100%">
+            <img src="images/Lion400.png" alt="3D Printed Lion" style="width:100%">
         </div>
         <div class="column">
             <img src="images/3DPrinter400.png" alt="3D Printer" style="width:100%">
