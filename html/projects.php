@@ -10,13 +10,15 @@
         I have numerous personal projects I have worked on over the years, both software and hardware related.
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
     </p>
-    <div class="column">
-        <div class="row">
-            <img src="images/Lion400.png" alt="3D Printed Lion" style="width:100%">
-        </div>
-        <div class="row">
-            <img src="images/3DPrinter400.png" alt="3D Printer" style="width:100%">
-        </div>
+    <figure class="half" style="display:flex">
+    <!-- <div class="column">
+        <div class="row"> -->
+        <img src="images/Lion400.png" style="height:400px">
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+        <img src="images/3DPrinter400.png"style="height:400px">
+        <!-- </div> -->
+    </figure>
     </div>
         <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
