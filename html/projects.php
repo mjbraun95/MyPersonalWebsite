@@ -39,10 +39,16 @@
     <!-- <div class="centered"> -->
         <img src="images/Lion400.png" style="height:400px;">
     </div>
-    <div style="padding-top: 500px">
+    <div style="padding-top:500px; vertical-align:center;">
 
-        <video width="540" height="960" style="vertical-align:center" controls>
+        <video width="540" height="960" controls>
             <source src="images/TweetHeat.mp4" type="video/mp4">
+        </video> 
+    </div>
+    <div style="padding-top:1200px; float:right">
+
+        <video width="540" height="960" controls>
+            <source src="images/AudioVisualizer.mp4" type="video/mp4">
         </video> 
     </div>
     </p>
