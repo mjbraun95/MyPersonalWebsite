@@ -5,20 +5,24 @@
 <?php include('navbar.php'); ?>
 
 <style>
-  div.left {
-    border:2px solid #000000;
-    background: rgb(0,0,0);
-    color: rgb(58,58,58);
-    /* width: 100px; */
-    float: left;
-  }
-  div.right {
-    border:2px solid #000000;
-    background: rgb(0,0,0);
-    color: rgb(58,58,58);
-    /* width: 100px; */
-    float: right;
-  }
+    div.left 
+    {
+        background: rgb(0,0,0);
+        color: rgb(58,58,58);
+        /* width: 100px; */
+        float: left;
+    }
+    div.right 
+    {
+        background: rgb(0,0,0);
+        color: rgb(58,58,58);
+        /* width: 100px; */
+        float: right;
+    }
+    div.box 
+    {
+        border:2px solid #000000;
+    }
 </style>
 <div class="content">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
@@ -39,10 +43,10 @@
     <!-- <div class="centered"> -->
         <img src="images/Lion400.png" style="height:400px;">
     </div>
-    <div style="padding-top:500px; float:left;">
+    <div style="padding-top:164px; float:left;">
 
         <video width="480" height="853" controls>
-            <source src="images/TweetHeat.mp4" type="video/mp4">
+            <source src="images/TweetHeatMute.mp4" type="video/mp4">
         </video> 
     </div>
     <div style="padding-top:500px; float:right">
