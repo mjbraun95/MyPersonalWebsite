@@ -44,11 +44,11 @@
         <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
-    <!-- <div class="video-size"> -->
+    <div>
         <video width="270" height="480" align-content=center controls>
             <source src="images/TweetHeat.mp4" type="video/mp4">
         </video> 
-    <!-- </div> -->
+    </div>
     <!-- </div> -->
 </div>
 </body>
