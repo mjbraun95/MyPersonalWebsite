@@ -32,12 +32,12 @@
         </div> -->
     <div class="left">
         <!-- <div class="centered"> -->
-        <img src="images/3DPrinter400.png" style="height:360px;">
+        <img src="images/3DPrinter400.png" style="height:400px;">
     </div>
 
     <div class="right">
     <!-- <div class="centered"> -->
-        <img src="images/Lion400.png" style="height:360px;">
+        <img src="images/Lion400.png" style="height:400px;">
     </div>
     </p>
     <!-- </div> -->
@@ -45,7 +45,8 @@
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
     <div style="padding-top: 380px">
-        <video width="270" height="480" align-content=center controls>
+        <video width="270" height="480" float=right controls>
+            Tesst.
             <source src="images/TweetHeat.mp4" type="video/mp4">
         </video> 
     </div>
