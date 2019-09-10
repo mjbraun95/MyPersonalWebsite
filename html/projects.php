@@ -41,13 +41,13 @@
     </div>
     <div style="padding-top:500px; vertical-align:center;">
 
-        <video width="540" height="960" controls>
+        <video width="480" height="853" controls>
             <source src="images/TweetHeat.mp4" type="video/mp4">
         </video> 
     </div>
-    <div style="padding-top:1200px; float:right">
+    <div style="padding-top:900px; float:right">
 
-        <video width="540" height="960" controls>
+        <video width="480" height="853" controls>
             <source src="images/AudioVisualizer.mp4" type="video/mp4">
         </video> 
     </div>
