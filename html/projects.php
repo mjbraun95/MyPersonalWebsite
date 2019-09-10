@@ -45,7 +45,7 @@
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
     <div class="video-size">
-        <video controls>
+        <video width="320" height="240" controls>
             <source src="images/TweetHeat.mp4" type="video/mp4">
         </video> 
     </div>
