@@ -39,16 +39,18 @@
     <!-- <div class="centered"> -->
         <img src="images/Lion400.png" style="height:400px;">
     </div>
+    <div style="padding-top: 500px">
+
+        <video width="540" height="960" style="vertical-align:center" controls>
+            <source src="images/TweetHeat.mp4" type="video/mp4">
+        </video> 
+    </div>
     </p>
     <!-- </div> -->
         <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
-    <div style="padding-top: 500px">
-        <video width="540" height="960" style="float:right" controls>
-            <source src="images/TweetHeat.mp4" type="video/mp4">
-        </video> 
-    </div>
+
     <!-- </div> -->
 </div>
 </body>
