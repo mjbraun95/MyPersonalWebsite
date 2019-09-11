@@ -19,6 +19,7 @@ body {
 
 img {
     height: auto;
+    object-fit: cover;
 }
 
 .header {
