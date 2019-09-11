@@ -33,10 +33,10 @@
         <img src="images/3DPrinter400.png" style="height:400px;">
     </div>
     <div class="left">
-        <textarea rows="24" cols="18">
+        <textarea rows="24" cols="16">
             This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
         </textarea>
-    <div class="right">
+    <div class="left">
         <img src="images/Lion400.png" style="height:400px;">
     </div>
     <div style="padding-top:164px; float:left;">
