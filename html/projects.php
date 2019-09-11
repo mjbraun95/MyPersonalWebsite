@@ -32,10 +32,11 @@
     <div class="left">
         <img src="images/3DPrinter400.png" style="height:400px;">
     </div>
-    <div class="right">
-        <textarea rows="24" cols="12">
+    <div class="centered">
+        <textarea rows="5" cols="50">
             This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
         </textarea>
+    </div>
     <div class="right">
         <img src="images/Lion400.png" style="height:400px;">
     </div>
@@ -45,7 +46,7 @@
         </video> 
     </div>
     <div style="padding-top:164px; float:left;">
-        <textarea rows="8" cols="50">
+        <textarea rows="4" cols="50">
             This is a program that grabs live Tweets from Twitter which have location data. It then plots those locations onto a heat map across North America.
         </textarea>
     </div>
@@ -56,7 +57,7 @@
         </video> 
     </div>
     <div style="padding-top:164px; float:right;">
-        <textarea rows="8" cols="50">
+        <textarea rows="5" cols="50">
             This program generates a soundwave from any MP3 file using the fast-fourier transform algorithm. This shows which frequencies are playing at what volume, over the entire length of the MP3 file. 
         </textarea>
     </div>
