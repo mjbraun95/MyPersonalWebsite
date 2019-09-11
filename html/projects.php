@@ -27,7 +27,7 @@
 <div class="content">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
-    <p style="padding-bottom: 20px">
+    <p style="padding-bottom: 1500px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
         I have built a custom 3D printer from scratch. It is controlled with Arduino.
     <div class="left">
@@ -40,20 +40,25 @@
         <img src="images/Lion400.png" style="height:400px;">
     </div>
     <div style="padding-top:164px; float:left;">
-
-        <video width="360" height="640" controls>
+        <video width="480" height="853" controls>
             <source src="images/TweetHeatMute.mp4" type="video/mp4">
         </video> 
-
+    </div>
+    <div style="padding-top:164px; float:left;">
         <p style="padding-bottom: 20px">
             This is a program that grabs live Tweets from Twitter which have location data. It then plots those locations onto a heat map across North America.
         </p>
     </div>
     <div style="padding-top:600px; float:right">
 
-        <video width="360" height="640" controls>
+        <video width="480" height="853" controls>
             <source src="images/AudioVisualizer.mp4" type="video/mp4">
         </video> 
+    </div>
+    <div style="padding-top:164px; float:right;">
+        <p style="padding-bottom: 20px">
+            This program generates a soundwave from any MP3 file using the fast-fourier transform algorithm. This shows which frequencies are playing at what volume, over the entire length of the MP3 file. 
+        </p>
     </div>
     </p>
     <!-- </div> -->
