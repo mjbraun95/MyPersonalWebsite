@@ -23,8 +23,8 @@ img {
 }
 
 .responsive {
-height: 100%;
-width: auto;
+  height: 100%;
+
 }
 
 .header {
@@ -80,11 +80,11 @@ h2.header {
 
     padding: 20px;
     font-size: 20px;
-    width: 85%;
+    width: 80%;
     background-color: white;
     border: 3px 3px 12px;
     align-content: center;
-    margin: auto;
+    /* margin: auto; */
 
     border-radius: 5px;
 

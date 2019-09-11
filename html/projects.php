@@ -23,6 +23,12 @@
     {
         /* border:2px solid #000000; */
     }
+
+    /* <div class="left">
+        <textarea rows="26" cols="16">
+This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
+        </textarea>
+    </div> */
 </style>
 <div class="content">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
@@ -31,11 +37,6 @@
         I have numerous personal projects I have worked on over the years, both software and hardware related.
     <div class="responsive">
         <img src="images/3DPrinter400.png" class="responsive">
-    </div>
-    <div class="left">
-        <textarea rows="26" cols="16">
-This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
-        </textarea>
     </div>
     <div class="responsive">
         <img src="images/Lion400.png" class="responsive">
