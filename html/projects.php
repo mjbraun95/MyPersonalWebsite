@@ -45,7 +45,7 @@
         </video> 
     </div>
     <div style="padding-top:164px; float:left;">
-        <p style="padding-bottom: 20px">
+        <p width="400" style="padding-bottom: 20px">
             This is a program that grabs live Tweets from Twitter which have location data. It then plots those locations onto a heat map across North America.
         </p>
     </div>
@@ -56,7 +56,7 @@
         </video> 
     </div>
     <div style="padding-top:164px; float:right;">
-        <p style="padding-bottom: 20px">
+        <p width="400" style="padding-bottom: 20px">
             This program generates a soundwave from any MP3 file using the fast-fourier transform algorithm. This shows which frequencies are playing at what volume, over the entire length of the MP3 file. 
         </p>
     </div>
