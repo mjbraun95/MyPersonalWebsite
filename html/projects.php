@@ -7,14 +7,14 @@
 <style>
     div.left 
     {
-        background: rgb(0,0,0);
+        background: rgb(58,58,58);
         color: rgb(58,58,58);
         /* width: 100px; */
         float: left;
     }
     div.right 
     {
-        background: rgb(0,0,0);
+        background: rgb(58,58,58);
         color: rgb(58,58,58);
         /* width: 100px; */
         float: right;
@@ -33,7 +33,7 @@
         <img src="images/3DPrinter400.png" style="height:400px;">
     </div>
     <div class="left">
-        <textarea rows="24" cols="16">
+        <textarea rows="24" cols="12">
             This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
         </textarea>
     <div class="left">
