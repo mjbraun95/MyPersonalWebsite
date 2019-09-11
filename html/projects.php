@@ -29,7 +29,7 @@
     
     <p style="padding-bottom: 20px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
-    <div class="left">
+    <div class="responsive">
         <img src="images/3DPrinter400.png" class="responsive">
     </div>
     <div class="left">
@@ -37,7 +37,7 @@
 This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
         </textarea>
     </div>
-    <div class="right">
+    <div class="responsive">
         <img src="images/Lion400.png" class="responsive">
     </div>
     <div style="padding-top:164px; float:left;">
