@@ -30,7 +30,7 @@
     <p style="padding-bottom: 20px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
     <div class="left">
-        <img src="images/3DPrinter400.png">
+        <img src="images/3DPrinter400.png" class="responsive">
     </div>
     <div class="left">
         <textarea rows="26" cols="16">
@@ -38,7 +38,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
         </textarea>
     </div>
     <div class="left">
-        <img src="images/Lion400.png">
+        <img src="images/Lion400.png" class="responsive">
     </div>
     <div style="padding-top:164px; float:left;">
         <video width="480" height="853" controls>

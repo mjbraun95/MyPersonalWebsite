@@ -22,6 +22,11 @@ img {
     object-fit: scale-down;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 .header {
     background-color: #a13baa;
     padding: 15px;
