@@ -57,8 +57,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
 
 </div>
 
-<div class="content">      
-    <!-- <div style="padding-top: 20px; text-align: left;"> -->
+<div class="content"> <!--- Tweet-Heat-->      
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Tweet-Heat</h3>
     <!-- <div style="width: 30%; height: auto; float: right;"> -->
         <p style="padding-left: 20px; margin: 0 auto; float: right">
@@ -72,8 +71,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div>
 </div>
 
-<div class="content">      
-    <!-- <div style="padding-top: 20px; text-align: left;"> -->
+<div class="content"> <!--- AudioVisualizer-->   
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
     <div style="width: 70%; height: auto; float: right;">
         <video controls class="responsiveVid">
