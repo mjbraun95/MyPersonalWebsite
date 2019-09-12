@@ -17,53 +17,104 @@
 // }
 </script>
 <style>
-    div.left 
-    {
-        background: rgb(58,58,58);
-        color: rgb(58,58,58);
-        /* width: 100px; */
-        float: left;
+
+    .content1 {
+        grid-template-columns: 70% 30%;
+        max-width: 1000px;
+        padding: 20px;
+        font-size: 20px;
+        width: 80%;
+        background-color: white;
+        border: 3px 3px 12px;
+        align-content: center;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px grey
     }
-    div.right 
-    {
-        background: rgb(58,58,58);
-        color: rgb(58,58,58);
-        /* width: 100px; */
-        float: right;
-    }
-    div.box 
-    {
-        /* border:2px solid #000000; */
+    .content2 {
+        grid-template-columns: 30% 70%;
+        max-width: 1000px;
+        padding: 20px;
+        font-size: 20px;
+        width: 80%;
+        background-color: white;
+        border: 3px 3px 12px;
+        align-content: center;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px grey
     }
 
-    /* <div class="left">
-        <textarea rows="26" cols="16">
-This is a 3D printer I built with a friend from scratch. It is programmed with Arduino and an Atmel ATMega 2560 Board.
-        </textarea>
-    </div> */
+    .wrapper{
+        display:grid;
+        grid-gap:1em;
+    }
+    .wrapper > div{
+        background:#eee;
+        padding:1em;
+    }
+    .printerVid {
+
+    }
+
+    .box1{
+      /*align-self:start;*/
+      width:100%;
+      height:auto;
+      grid-row:auto;
+      align-content:center;
+      /* float:left; */
+    }
+
+    .box2{
+      /*align-self:end;*/
+      height:auto;
+      grid-row:auto;
+      /* align-content:center; */
+      width: 30%; 
+      float: right;
+    }
+
+    .box3{
+      /*align-self:end;*/
+      height:auto;
+      grid-row:auto;
+      /* align-content:center; */
+      width: 70%; 
+      float: left;
+    }
+
+    .box4{
+      grid-column:1;
+      grid-row:2/4; 
+      /* border:1px solid #333; */
+    }
+    .
 </style>
+
 <div class="content">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">3D Printer</h3>
     
-    <p style="padding-bottom: 20px; margin: 0 auto;">
+    <p class="box1" style="padding-bottom: 20px; margin: 0 auto;">
         This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
     </p>
-    <div>
+    <div class="box1">
         <img src="images/3DPrinterLion1000.png" class="responsive">
-        <!-- <script type="text/javascript">
+        /* <!-- <script type="text/javascript">
         $('img').center();
-        </script> -->
+        </script> --> */
     </div>
 
 </div>
 
-<div class="content"> <!--- Tweet-Heat-->      
-    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Tweet-Heat</h3>
-    <!-- <div style="width: 30%; height: auto; float: right;"> -->
-        <p style="padding-left: 20px; margin: 0 auto; float: right">
-        This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
-        </p>
-    <!-- </div> -->
+<div class="content2">
+/*  <!--- Tweet-Heat-->       */
+    <h3>Tweet-Heat</h3>
+    /* <div class="box2"> --> */
+    <p>
+    This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
+    </p>
+    /* </div> */
     <div style="width: 70%; height: auto; float: left;">
         <video controls class="responsiveVid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
@@ -71,7 +122,9 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div>
 </div>
 
-<div class="content"> <!--- AudioVisualizer-->   
+
+<div class="content">
+ /* <!--- AudioVisualizer-->    */
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
     <div style="width: 70%; height: auto; float: right;">
         <video controls class="responsiveVid">
