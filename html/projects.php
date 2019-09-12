@@ -47,13 +47,13 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     
     <p style="padding-bottom: 20px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
-    <div class="responsive">
+    <div class="responsive" style="float: left;">
         <img src="images/3DPrinter400.png" class="responsive">
         <script type="text/javascript">
         $('img').center();
         </script>
     </div>
-    <div class="responsive">
+    <div class="responsive" style="float: left;">
         <img src="images/Lion400.png" class="responsive">
         <script type="text/javascript">
         $('img').center();
