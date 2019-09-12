@@ -42,10 +42,10 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
         </textarea>
     </div> */
 </style>
+<script type="text/javascript">
+$('div').center();
+</script>
 <div class="content">
-    <script type="text/javascript">
-    $('div').center();
-    </script>
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
     <p style="padding-bottom: 20px">
