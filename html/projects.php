@@ -42,9 +42,6 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
         </textarea>
     </div> */
 </style>
-<script type="text/javascript">
-$('div').center();
-</script>
 <div class="content">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
@@ -52,9 +49,15 @@ $('div').center();
         I have numerous personal projects I have worked on over the years, both software and hardware related.
     <div class="responsive">
         <img src="images/3DPrinter400.png" class="responsive">
+        <script type="text/javascript">
+        $('div').center();
+        </script>
     </div>
     <div class="responsive">
         <img src="images/Lion400.png" class="responsive">
+        <script type="text/javascript">
+        $('div').center();
+        </script>
     </div>
     <div style="padding-top:164px; float:left;">
         <video width="480" height="853" controls>
