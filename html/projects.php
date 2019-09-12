@@ -107,14 +107,10 @@
 
 </div>
 
-<div class="content2">
-/*  <!--- Tweet-Heat-->       */
+<div class="content1">
     <h3>Tweet-Heat</h3>
-    /* <div class="box2"> --> */
     <p>
     This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
-    </p>
-    /* </div> */
     <div style="width: 70%; height: auto; float: left;">
         <video controls class="responsiveVid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
@@ -123,8 +119,7 @@
 </div>
 
 
-<div class="content">
- /* <!--- AudioVisualizer-->    */
+<div class="content2">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
     <div style="width: 70%; height: auto; float: right;">
         <video controls class="responsiveVid">
