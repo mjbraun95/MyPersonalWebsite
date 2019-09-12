@@ -56,7 +56,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </p>
 </div>
 
-<div class="content" style="justify-items: left">      
+<div class="content">      
     <!-- <div style="padding-top: 20px; text-align: left;"> -->
     <video controls class="responsiveVid">
         <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
