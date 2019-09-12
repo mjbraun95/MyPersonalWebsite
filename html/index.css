@@ -30,6 +30,12 @@ img {
     margin: auto;
 }
 
+.responsiveVid {
+    max-width: 600px;
+    height: auto;
+    object-fit: scale-down;
+}
+
 .header {
     background-color: #a13baa;
     padding: 15px;
