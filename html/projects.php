@@ -43,9 +43,9 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div> */
 </style>
 <div class="content">
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     $('div').center();
-    </script> -->
+    </script>
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
     <p style="padding-bottom: 20px">
