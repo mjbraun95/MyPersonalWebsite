@@ -61,7 +61,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     <video controls class="responsiveVid">
         <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
     </video>
-    <p style="padding-left: 20px; margin: 0 auto;">
+    <p style="padding-left: 20px; margin: 0 auto; float: right">
     This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
     </p>
         <!-- <br>
