@@ -47,18 +47,19 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     
     <p style="padding-bottom: 20px; margin: 0 auto;">
         I have numerous personal projects I have worked on over the years, both software and hardware related. 
+    </p>
     <div>
         <img src="images/3DPrinterLion1000.png" class="responsive">
         <!-- <script type="text/javascript">
         $('img').center();
         </script> -->
     </div>
-    </p>
+
 </div>
 
-<div class="content" style="height: auto;">      
+<div class="content">      
     <!-- <div style="padding-top: 20px; text-align: left;"> -->
-    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">3D Printer</h3>
+    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Tweet-Heat</h3>
     <div style="width: 70%; height: auto; float: left;">
         <video controls class="responsiveVid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
