@@ -11,8 +11,8 @@
 <script type="text/javascript">
 jQuery.fn.center = function() {
     var container = $(window);
-    var top = -this.height() / 2;
-    var left = -this.width() / 2 + 1;
+    var top = -this.height() / 20;
+    var left = -this.width() / 20;
     return this.css('position', 'absolute').css({ 'margin-left': left + 'px', 'margin-top': top + 'px', 'left': '50%', 'top': '50%' });
 }
 </script>
