@@ -48,7 +48,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     <p style="padding-bottom: 20px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
     <div>
-        <img src="images/3DPrinterLion.png" class="responsive" style="margin: auto;">
+        <img src="images/3DPrinterLion1000.png" class="responsive" style="margin: auto;">
         <!-- <script type="text/javascript">
         $('img').center();
         </script> -->
