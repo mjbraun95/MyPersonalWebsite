@@ -43,10 +43,10 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div> */
 </style>
 <div class="content">
-    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
+    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">3D Printer</h3>
     
     <p style="padding-bottom: 20px; margin: 0 auto;">
-        I have numerous personal projects I have worked on over the years, both software and hardware related. 
+        This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
     </p>
     <div>
         <img src="images/3DPrinterLion1000.png" class="responsive">
@@ -70,47 +70,23 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
         This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
     </div>
-        <!-- <br>
-        <p style="padding-left: 50px; margin: 0px;">
+</div>
 
+<div class="content">      
+    <!-- <div style="padding-top: 20px; text-align: left;"> -->
+    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Tweet-Heat</h3>
+    <div style="width: 70%; height: auto; float: right;">
+        <video controls class="responsiveVid">
+            <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
+        </video>
+    </div>
+    <div style="width: 30%; height: auto; float: left;">
+        <p style="padding-left: 20px; margin: 0 auto; float: left">
+        This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
-        <br>
-        <p style="padding-left: 50px; margin: 0px;">
-
-        </p> -->
-    <!-- </div> -->
+    </div>
 </div>
 
 
 </body>
 </html>
-
-
-    <!-- <div style="padding-top:164px; float:left;">
-        <video width="480" height="853" controls>
-            <source src="images/TweetHeatMute.mp4" type="video/mp4" class="responsive">
-        </video> 
-    </div>
-    <div style="padding-top:164px; float:left;">
-        <textarea rows="4" cols="50">
-This is a program that grabs live Tweets from Twitter which have location data. It then plots those locations onto a heat map across North America.
-        </textarea>
-    </div>
-    <div style="padding-top:600px; float:right">
-
-        <video width="480" height="853" controls>
-            <source src="images/AudioVisualizer.mp4" type="video/mp4" class="responsive">
-        </video> 
-    </div>
-    <div style="padding-top:164px; float:right;">
-        <textarea rows="5" cols="50">
-This program generates a soundwave from any MP3 file using the fast-fourier transform algorithm. This shows which frequencies are playing at what volume, over the entire length of the MP3 file. 
-        </textarea>
-    </div> -->
-
-    <!-- </div> -->
-        <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
-        <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
-        <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
-
-    <!-- </div> -->
