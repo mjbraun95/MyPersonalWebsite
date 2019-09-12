@@ -55,7 +55,7 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div>
     <div style="padding-top:164px; float:left;">
         <video width="480" height="853" controls>
-            <source src="images/TweetHeatMute.mp4" type="video/mp4">
+            <source src="images/TweetHeatMute.mp4" type="video/mp4" class="responsive">
         </video> 
     </div>
     <div style="padding-top:164px; float:left;">
@@ -66,7 +66,7 @@ This is a program that grabs live Tweets from Twitter which have location data. 
     <div style="padding-top:600px; float:right">
 
         <video width="480" height="853" controls>
-            <source src="images/AudioVisualizer.mp4" type="video/mp4">
+            <source src="images/AudioVisualizer.mp4" type="video/mp4" class="responsive">
         </video> 
     </div>
     <div style="padding-top:164px; float:right;">
