@@ -56,9 +56,9 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </p>
 </div>
 
-<div class="content">      
+<div class="content" style="height: auto;">      
     <!-- <div style="padding-top: 20px; text-align: left;"> -->
-    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
+    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">3D Printer</h3>
     <div style="width: 70%; height: auto; float: left;">
         <video controls class="responsiveVid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
