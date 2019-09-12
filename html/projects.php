@@ -4,6 +4,18 @@
 <?php include('head.php'); ?>
 <?php include('navbar.php'); ?>
 
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<script type="text/javascript">
+jQuery.fn.center = function() {
+    var container = $(window);
+    var top = -this.height() / 2;
+    var left = -this.width() / 2;
+    return this.css('position', 'absolute').css({ 'margin-left': left + 'px', 'margin-top': top + 'px', 'left': '50%', 'top': '50%' });
+}
+</script>
 <style>
     div.left 
     {
@@ -31,6 +43,9 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     </div> */
 </style>
 <div class="content">
+    <script type="text/javascript">
+    $('div').center();
+    </script>
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
     <p style="padding-bottom: 20px">
