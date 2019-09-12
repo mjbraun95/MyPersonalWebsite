@@ -23,19 +23,6 @@ img {
     object-fit: scale-down;
 }
 
-.responsive {
-    max-width: 100%;
-    height: auto;
-    object-fit: scale-down;
-    margin: auto;
-}
-
-.responsiveVid {
-    max-width: 100%;
-    height: auto;
-    object-fit: scale-down;
-}
-
 .header {
     background-color: #a13baa;
     padding: 15px;
