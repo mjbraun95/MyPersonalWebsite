@@ -48,16 +48,16 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     <p style="padding-bottom: 20px">
         I have numerous personal projects I have worked on over the years, both software and hardware related.
     <div>
-        <img src="images/3DPrinterLion1000.png" class="responsive" style="margin: auto;">
+        <img src="images/3DPrinterLion1000.png" class="responsive">
         <!-- <script type="text/javascript">
         $('img').center();
         </script> -->
     </div>
-    <!-- <div style="padding-top:164px; float:left;">
+    <div style="padding-top:164px; float:left;">
         <video width="480" height="853" controls>
             <source src="images/TweetHeatMute.mp4" type="video/mp4">
         </video> 
-    </div> -->
+    </div>
     <div style="padding-top:164px; float:left;">
         <textarea rows="4" cols="50">
 This is a program that grabs live Tweets from Twitter which have location data. It then plots those locations onto a heat map across North America.
