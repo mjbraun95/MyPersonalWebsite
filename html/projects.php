@@ -46,14 +46,40 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Personal Projects</h3>
     
     <p style="padding-bottom: 20px">
-        I have numerous personal projects I have worked on over the years, both software and hardware related.
+        I have numerous personal projects I have worked on over the years, both software and hardware related. 
     <div>
         <img src="images/3DPrinterLion1000.png" class="responsive">
         <!-- <script type="text/javascript">
         $('img').center();
         </script> -->
     </div>
-    <div style="padding-top:164px; float:left;">
+    </p>
+</div>
+
+<div class="content" style="justify-items: left">      
+    <div style="padding-top: 20px; text-align: left;">
+        <source src="images/TweetHeatMute.mp4" type="video/mp4" class="responsive" style="float:left; margin-right: 20px;">  
+
+        <p style="padding-left: 50px; margin: 0px;">
+        This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
+        </p>
+        <!-- <br>
+        <p style="padding-left: 50px; margin: 0px;">
+
+        </p>
+        <br>
+        <p style="padding-left: 50px; margin: 0px;">
+
+        </p> -->
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+    <!-- <div style="padding-top:164px; float:left;">
         <video width="480" height="853" controls>
             <source src="images/TweetHeatMute.mp4" type="video/mp4" class="responsive">
         </video> 
@@ -73,14 +99,11 @@ This is a program that grabs live Tweets from Twitter which have location data. 
         <textarea rows="5" cols="50">
 This program generates a soundwave from any MP3 file using the fast-fourier transform algorithm. This shows which frequencies are playing at what volume, over the entire length of the MP3 file. 
         </textarea>
-    </div>
-    </p>
+    </div> -->
+
     <!-- </div> -->
         <!-- <img src="images/3DPrintedLion.jpg" width="256" height="352" class="rotate" alt="3D Printed Lion" align="right" />
         <img src="images/3DPrinter.png" width="196" height="256"  alt="3D Printer" align="left" />
         <img src="images/TweetHeat.webm" alt="Twitter Heatmap"> -->
 
     <!-- </div> -->
-</div>
-</body>
-</html>
