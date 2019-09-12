@@ -50,13 +50,13 @@ This is a 3D printer I built with a friend from scratch. It is programmed with A
     <div class="responsive">
         <img src="images/3DPrinter400.png" class="responsive">
         <script type="text/javascript">
-        $('div').center();
+        $('img').center();
         </script>
     </div>
     <div class="responsive">
         <img src="images/Lion400.png" class="responsive">
         <script type="text/javascript">
-        $('div').center();
+        $('img').center();
         </script>
     </div>
     <div style="padding-top:164px; float:left;">
