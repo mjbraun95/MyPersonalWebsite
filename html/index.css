@@ -30,7 +30,10 @@ img {
 }
 
 h1.header {
-    color: white
+    color: white;
+    background:url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPUlEQVQYlWMwcTw/kwEJmDien4lNjAGXAIYkPgm8Jl0wuTDzgskFTJOxKcKqmGiFRFtNkmewSRA0CVeAAwAPLUnVLMw63wAAAABJRU5ErkJggg==
+    ) repeat;
 }
 
 h2.header {
@@ -44,7 +47,7 @@ h2.header {
 
 div.header{
     background:url(
-        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMklEQVQYlWNgYGAwZkAFxjjEcApgSOKTIGgSVpOxKcKqmGiFRFuNUwCHGFaT8erCGuAAtV8HLQ/j6goAAAAASUVORK5CYII=
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPUlEQVQYlWMwcTw/kwEJmDien4lNjAGXAIYkPgm8Jl0wuTDzgskFTJOxKcKqmGiFRFtNkmewSRA0CVeAAwAPLUnVLMw63wAAAABJRU5ErkJggg==
     ) repeat;
  }
 
