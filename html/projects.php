@@ -184,7 +184,7 @@ jQuery.fn.center = function() {
             This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
     </div>
-    <div class="leftBox">
+    <div class="leftBox" style="margin-right: 20px">
         <video controls class="vid60">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
@@ -199,7 +199,7 @@ jQuery.fn.center = function() {
             This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
     </div>
-    <div class="rightBox">
+    <div class="rightBox" style="margin-left: 20px">
         <video controls class="vid60">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
