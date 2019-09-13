@@ -93,40 +93,21 @@
       /* float:left; */
     }
 
-    .right30Box{
-      /*align-self:end;*/
-      height:auto
-      /* align-content:center; */
-      width: 30%; 
-      float: right;
-      grid-area: b;
-    }
-
-    .right70Box{
-      /*align-self:end;*/
-      height:auto;
-      /* align-content:center; */
-      width: 60%; 
-      float: right;
-      object-fit: scale-down;
-      grid-area: a;
-    }
-
-    .right70Vid{
-      /*align-self:end;*/
-      width: 100%
-      height:auto;
-      /* align-content:center; */
-      object-fit: scale-down;
-      grid-area: a;
-    }
-
     .left30Box{
       /*align-self:end;*/
       height:auto;
       /* align-content:center; */
       width: 30%; 
       float: left;
+      grid-area: b;
+    }
+
+    .right30Box{
+      /*align-self:end;*/
+      height:auto
+      /* align-content:center; */
+      width: 30%; 
+      float: right;
       grid-area: b;
     }
 
@@ -138,6 +119,34 @@
       float: left;
       object-fit: scale-down;
       grid-area: a;
+    }
+
+    .right70Box{
+      /*align-self:end;*/
+      height:auto;
+      /* align-content:center; */
+      /* width: 60%;  */
+      float: right;
+      object-fit: scale-down;
+      grid-area: a;
+    }
+
+    .left70Vid{
+      /*align-self:end;*/
+      width: 100%
+      height:auto;
+      /* align-content:center; */
+      object-fit: scale-down;
+      /* grid-area: a; */
+    }
+
+    .right70Vid{
+      /*align-self:end;*/
+      width: 100%
+      height:auto;
+      /* align-content:center; */
+      object-fit: scale-down;
+      /* grid-area: a; */
     }
 
 </style>
@@ -168,7 +177,7 @@
         </p>
     </div>
     <div class="left70Box">
-        <video controls class="left70Box">
+        <video controls class="left70Vid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
@@ -185,7 +194,7 @@
         </p>
     </div>
     <div>
-        <video controls class="right70Box">
+        <video controls class="right70Vid">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
     </div>
