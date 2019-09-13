@@ -3,9 +3,10 @@ body {
     font-size: 28px;
     font-family: Georgia, serif;
     vertical-align: center;
-    background:url(
+    background: rgb(166, 178, 243);
+    /* url(
         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAwklEQVQYlXWQoQ3DMBBFDYoc87YLWAozsHlimmmswmyQDf4YGSDgSNFJNg1pBsgSBelZJuXvvt499bj1HHXiqBNTyPBjxtYN7McMChlRJ37celZRJ6bnCwKRnUB2QnEHKGTQ84WoEysKuUKz+6D4gvX+BtkJ7aryY76u7YT1/sZuzgrP7lNhtXUDC1R8wWKAxaAeyLISr+ILdnNWsFXYuuFyFD9Z3c1ZoeKOa7HN0iq0fhQE/OWRp9qPax4J/i+2BP8C7xjGmVl6gscAAAAASUVORK5CYII=
-    ) repeat;
+    ) repeat; */
     padding-bottom: 50px;
 }
 
@@ -33,8 +34,10 @@ img {
 
 h1.header {
     /* color: rgb(129, 21, 133) */
-    color: linear-gradient(#70088a,rgb(7, 4, 0));
-    background-image: linear-gradient(#4b461d,rgb(7, 4, 0));
+    /* color: linear-gradient(#70088a,rgb(7, 4, 0)); */
+    /* background: black; */
+    background-color: rgba(0,0,0,.5); 
+    /* background-image: linear-gradient(#4b461d,rgb(7, 4, 0)); */
 }
 
 h2.header {
