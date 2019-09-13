@@ -129,29 +129,11 @@ jQuery.fn.center = function() {
       grid-area: a;
     }
 
-    .left70Vid{
-      /*align-self:end;*/
-      max-width: 100%
-      height:auto;
-      /* align-content:center; */
-      object-fit: scale-down;
-      /* grid-area: a; */
-    }
-
     .vid60{
-        max-width: 600px;
-        height: auto;
-        object-fit: contain;
-        /* margin: auto; */
-    }
-
-    .right70Vid{
-      /*align-self:end;*/
-      max-width: 600px;
-      height:auto;
-      /* align-content:center; */
-      object-fit: scale-down;
-      /* grid-area: a; */
+        width: 600px !important;
+        height: auto !important;
+        /* object-fit: contain;
+        margin: auto; */
     }
 
 </style>
