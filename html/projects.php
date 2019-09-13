@@ -99,7 +99,7 @@
       height:auto;
       grid-row:auto;
       /* align-content:center; */
-      width: 70%; 
+      width: 60%; 
       float: right;
       object-fit: scale-down;
     }
@@ -118,7 +118,7 @@
       height:auto;
       grid-row:auto;
       /* align-content:center; */
-      width: 70%; 
+      width: 60%; 
       float: left;
       object-fit: scale-down;
     }
