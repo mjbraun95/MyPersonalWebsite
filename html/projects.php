@@ -163,9 +163,9 @@ jQuery.fn.center = function() {
 </div>
 
 
-
+<h3 class="h3Header">Tweet-Heat</h3>
 <div class="content1">
-    <h3 class="h3Header">Tweet-Heat</h3>
+    
     
     <div class="rightBox">
         <p style="padding-left: 20px; margin: 0 auto; float: right">
