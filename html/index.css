@@ -111,7 +111,7 @@ h2.header {
 
 p {
     padding: 10px;
-    font-size: 16vw;
+    /* font-size: 16vw; */
     width: 95%;
     align-content: center;
     margin: auto;
