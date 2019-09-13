@@ -147,6 +147,12 @@ jQuery.fn.center = function() {
     }
 
 </style>
+
+<div class="content">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        Here's a list of some of my favourite projects I've worked on. This section is still a work in progress. I plan on adding more of my projects in the near future!
+    </p>
+
 <h3 class="h3Header">3D Printer</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
