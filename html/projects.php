@@ -105,7 +105,7 @@ jQuery.fn.center = function() {
       align-content:center;
       text-align: center;
       padding-top: 80px;
-      font-size: 50px;
+      /* font-size: 50px; */
     }
 
     .leftBox{
@@ -126,27 +126,7 @@ jQuery.fn.center = function() {
       grid-area: b; */
     }
 
-    .left70Box{
-      /*align-self:end;*/
-      height:auto;
-      /* align-content:center; */
-      width: 60%; 
-      float: left;
-      object-fit: scale-down;
-      grid-area: a;
-    }
-
-    .right70Box{
-      /*align-self:end;*/
-      height:auto;
-      /* align-content:center; */
-      /* width: 60%;  */
-      float: right;
-      object-fit: scale-down;
-      grid-area: a;
-    }
-
-    .vid60{
+    .vid{
         max-width: 100%;
         height: auto;
         object-fit: scale-down;
@@ -185,7 +165,7 @@ jQuery.fn.center = function() {
         </p>
     </div>
     <div class="leftBox" style="margin-right: 20px">
-        <video controls class="vid60">
+        <video controls class="vid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
@@ -200,7 +180,7 @@ jQuery.fn.center = function() {
         </p>
     </div>
     <div class="rightBox" style="margin-left: 20px">
-        <video controls class="vid60">
+        <video controls class="vid">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
     </div>
