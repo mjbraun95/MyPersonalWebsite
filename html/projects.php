@@ -140,7 +140,7 @@ jQuery.fn.center = function() {
 
     .vid60{
         max-width: 600px;
-        height: auto;
+        /* height: auto; */
         object-fit: contain;
         margin: auto;
     }
