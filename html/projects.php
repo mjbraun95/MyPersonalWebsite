@@ -38,7 +38,6 @@
     }
 
     .content1 {
-        grid-template-columns: 70% 30%;
         max-width: 1000px;
         padding: 20px;
         font-size: 20px;
@@ -49,13 +48,13 @@
         margin: auto;
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
+        display: grid;
         grid-template-columns: 3,1fr;
         grid-template-rows: auto auto;
         grid-template-areas: "a a b";
         height: auto;
     }
     .content2 {
-        grid-template-columns: 30% 70%;
         max-width: 1000px;
         padding: 20px;
         font-size: 20px;
@@ -66,6 +65,7 @@
         margin: auto;
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
+        display: grid;
         grid-template-columns: 1,3fr;
         grid-template-rows: auto auto;
         grid-template-areas: "b a a";
@@ -108,6 +108,15 @@
       /* align-content:center; */
       width: 60%; 
       float: right;
+      object-fit: scale-down;
+      grid-area: a;
+    }
+
+    .right70Vid{
+      /*align-self:end;*/
+      width: 100%
+      height:auto;
+      /* align-content:center; */
       object-fit: scale-down;
       grid-area: a;
     }
