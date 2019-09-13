@@ -169,7 +169,7 @@
 
 
 <div class="content1">
-    <h3>Tweet-Heat</h3>
+    <h3 class="fullBox">Tweet-Heat</h3>
     
     <div class="right30Box">
         <p style="padding-left: 20px; margin: 0 auto; float: right">
