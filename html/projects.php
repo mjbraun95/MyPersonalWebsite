@@ -99,6 +99,7 @@ jQuery.fn.center = function() {
       align-content:center;
       text-align: center;
       padding-top: 80px;
+      font-size: 50px;
     }
 
     .leftBox{
