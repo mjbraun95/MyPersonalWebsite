@@ -88,7 +88,7 @@
       /*align-self:start;*/
       width:100%;
       height:auto;
-      grid-row:auto;
+      /* grid-row:auto; */
       align-content:center;
       /* float:left; */
     }
