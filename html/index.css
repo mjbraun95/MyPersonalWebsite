@@ -116,6 +116,11 @@ p {
     align-content: center;
     margin: auto;
 } 
+@media screen and (min-width: 1920px) {
+    p {
+ font-size: 36px;
+    }
+}
 
 .rotate {
     -ms-transform: rotate(90deg); /* IE 9 */
