@@ -49,7 +49,9 @@
         margin: auto;
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
+        grid-template-columns: 3,1fr;
         grid-template-rows: auto auto;
+        grid-template-areas: "a a b";
     }
     .content2 {
         grid-template-columns: 30% 70%;
@@ -63,7 +65,9 @@
         margin: auto;
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
+        grid-template-columns: 1,3fr;
         grid-template-rows: auto auto;
+        grid-template-areas: "b a a";
     }
 
     .wrapper{
@@ -93,6 +97,7 @@
       /* align-content:center; */
       width: 30%; 
       float: right;
+      grid-area: b;
     }
 
     .right70Box{
@@ -102,6 +107,7 @@
       width: 60%; 
       float: right;
       object-fit: scale-down;
+      grid-area: a;
     }
 
     .left30Box{
@@ -110,6 +116,7 @@
       /* align-content:center; */
       width: 30%; 
       float: left;
+      grid-area: b;
     }
 
     .left70Box{
@@ -119,6 +126,7 @@
       width: 60%; 
       float: left;
       object-fit: scale-down;
+      grid-area: a;
     }
 
 </style>
