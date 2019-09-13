@@ -3,7 +3,6 @@
 
 <?php include('head.php'); ?>
 <?php include('navbar.php'); ?>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 <head>
@@ -71,6 +70,11 @@ jQuery.fn.center = function() {
         grid-template-rows: 100%;
         height: auto;
     }
+    @media screen and (min-width: 1920px) {
+        .content2 {
+     font-size: 36px;
+  }
+}
 
     .wrapper{
         display:grid;
