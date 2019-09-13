@@ -159,7 +159,7 @@
         </p>
     </div>
     <div class="left70Box">
-        <video controls>
+        <video controls class="left70Box">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
