@@ -48,9 +48,10 @@ h2.header {
 }
 
 div.header{
-    background:url(
+    /* background:url(
         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAqklEQVQYlXWQsQ3EIBAELyQlQUKiCAIo4Gpy6Eq2F5KrAFISuwU64APreNuvj290O7uUuMIMCzMsJFckrgilI3GF5OuWuILMsBC/PaBQOlo8IblC/AYzLEhyXdAeD3hhkJs/XylxRYsnQukgN5cGuYk9HgsmjVKopYaWGsyw8MLrM6mXF/4BVSGUfjmq3ztaS31b3xqTm/DCDz/Jr3m01L3xmkcH/ze2Dv4BSdrIYalHpKgAAAAASUVORK5CYII=
-    ) repeat;
+    ) repeat; */
+    background-image: linear-gradient(#70692a,rgb(7, 4, 0));
  }
 
 /* navbar links */
