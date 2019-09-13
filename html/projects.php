@@ -52,6 +52,7 @@
         grid-template-columns: 3,1fr;
         grid-template-rows: auto auto;
         grid-template-areas: "a a b";
+        height: auto;
     }
     .content2 {
         grid-template-columns: 30% 70%;
@@ -68,6 +69,7 @@
         grid-template-columns: 1,3fr;
         grid-template-rows: auto auto;
         grid-template-areas: "b a a";
+        height: auto;
     }
 
     .wrapper{
