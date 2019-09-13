@@ -142,6 +142,7 @@ jQuery.fn.center = function() {
     </p>
 </div>
 
+<a name="3D_Printer"></a>
 <h3 class="h3Header">3D Printer</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
@@ -156,8 +157,8 @@ jQuery.fn.center = function() {
 
 </div>
 
-
-<h3 class="h3Header">Tweet-Heat</h3>
+<a name="Tweet_Heat"></a>
+<h3 class="h3Header">Tweet Heat</h3>
 <div class="content1">
     <div class="rightBox">
         <p style="padding-left: 20px; margin: 0 auto; float: right">
@@ -171,8 +172,8 @@ jQuery.fn.center = function() {
     </div>
 </div>
 
-
-<h3 class="h3Header">AudioVisualizer</h3>
+<a name="Audio_Visualizer"></a>
+<h3 class="h3Header">Audio Visualizer</h3>
 <div class="content2">
     <div class="leftBox">
         <p style="padding-right: 20px; margin: 0 auto; float: left">
