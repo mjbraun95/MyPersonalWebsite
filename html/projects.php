@@ -76,7 +76,7 @@
 
     }
 
-    .box1{
+    .fullBox{
       /*align-self:start;*/
       width:100%;
       height:auto;
@@ -85,7 +85,7 @@
       /* float:left; */
     }
 
-    .box2{
+    .right30Box{
       /*align-self:end;*/
       height:auto;
       grid-row:auto;
@@ -94,30 +94,44 @@
       float: right;
     }
 
-    .box3{
+    .right70Box{
+      /*align-self:end;*/
+      height:auto;
+      grid-row:auto;
+      /* align-content:center; */
+      width: 70%; 
+      float: right;
+      object-fit: scale-down;
+    }
+
+    .left30Box{
+      /*align-self:end;*/
+      height:auto;
+      grid-row:auto;
+      /* align-content:center; */
+      width: 30%; 
+      float: left;
+    }
+
+    .left70Box{
       /*align-self:end;*/
       height:auto;
       grid-row:auto;
       /* align-content:center; */
       width: 70%; 
       float: left;
+      object-fit: scale-down;
     }
 
-    .box4{
-      grid-column:1;
-      grid-row:2/4; 
-      /* border:1px solid #333; */
-    }
-    .
 </style>
 
 <div class="content">
     <h3>3D Printer</h3>
     
-    <p class="box1" style="padding-bottom: 20px; margin: 0 auto;">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
     </p>
-    <div class="box1">
+    <div class="fullBox">
         <img src="images/3DPrinterLion1000.png" class="responsive">
         <!-- <script type="text/javascript">
         $('img').center();
@@ -126,35 +140,37 @@
 
 </div>
 
-<div class="content1">
-    <div>
-        <h3>Tweet-Heat</h3>
-    </div>
 
+
+<div class="content1">
+    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">Tweet-Heat</h3>
+    
     <div>
-        <p>
+        <p class="right30Box">
             This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
-    </div>L
+    </div>
     <div>
-        <video controls class="responsiveVid">
+        <video controls class="left70Box">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
 </div>
 
 
+
 <div class="content2">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
-    <div style="width: 70%; height: auto; float: right;">
-        <video controls class="responsiveVid">
+    
+    <div class="left30Box">
+        <p style="padding-left: 20px; margin: 0 auto; float: left">
+            This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
+        </p>
+    </div>
+    <div>
+        <video controls class="right70Box">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
-    </div>
-    <div style="width: 30%; height: auto; float: left;">
-        <p style="padding-left: 20px; margin: 0 auto; float: left">
-        This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
-        </p>
     </div>
 </div>
 
