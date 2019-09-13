@@ -48,7 +48,8 @@
         align-content: center;
         margin: auto;
         border-radius: 5px;
-        box-shadow: 2px 2px 10px grey
+        box-shadow: 2px 2px 10px grey;
+        grid-template-rows: auto auto;
     }
     .content2 {
         grid-template-columns: 30% 70%;
@@ -61,7 +62,8 @@
         align-content: center;
         margin: auto;
         border-radius: 5px;
-        box-shadow: 2px 2px 10px grey
+        box-shadow: 2px 2px 10px grey;
+        grid-template-rows: auto auto;
     }
 
     .wrapper{
@@ -87,8 +89,7 @@
 
     .right30Box{
       /*align-self:end;*/
-      height:auto;
-      grid-row:auto;
+      height:auto
       /* align-content:center; */
       width: 30%; 
       float: right;
@@ -97,7 +98,6 @@
     .right70Box{
       /*align-self:end;*/
       height:auto;
-      grid-row:auto;
       /* align-content:center; */
       width: 60%; 
       float: right;
@@ -107,7 +107,6 @@
     .left30Box{
       /*align-self:end;*/
       height:auto;
-      grid-row:auto;
       /* align-content:center; */
       width: 30%; 
       float: left;
@@ -116,7 +115,6 @@
     .left70Box{
       /*align-self:end;*/
       height:auto;
-      grid-row:auto;
       /* align-content:center; */
       width: 60%; 
       float: left;
