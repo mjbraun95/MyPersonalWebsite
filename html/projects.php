@@ -130,7 +130,7 @@ jQuery.fn.center = function() {
     }
 
     .vid60{
-        width: 600px !important;
+        max-width: 600px !important;
         height: auto !important;
         /* object-fit: contain;
         margin: auto; */
