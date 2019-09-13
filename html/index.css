@@ -32,7 +32,8 @@ img {
 }
 
 h1.header {
-    color: rgb(129, 21, 133)
+    /* color: rgb(129, 21, 133) */
+    color: linear-gradient(#4b461d,rgb(7, 4, 0));
     background-image: linear-gradient(#4b461d,rgb(7, 4, 0));
 }
 
