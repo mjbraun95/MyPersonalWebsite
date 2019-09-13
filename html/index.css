@@ -4,7 +4,7 @@ body {
     font-family: Georgia, serif;
     vertical-align: center;
     background:url(
-        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAqklEQVQYlXWQsQ3EIBAELyQlQUKiCAIo4Gpy6Eq2F5KrAFISuwU64APreNuvj290O7uUuMIMCzMsJFckrgilI3GF5OuWuILMsBC/PaBQOlo8IblC/AYzLEhyXdAeD3hhkJs/XylxRYsnQukgN5cGuYk9HgsmjVKopYaWGsyw8MLrM6mXF/4BVSGUfjmq3ztaS31b3xqTm/DCDz/Jr3m01L3xmkcH/ze2Dv4BSdrIYalHpKgAAAAASUVORK5CYII=
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAwklEQVQYlXWQoQ3DMBBFDYoc87YLWAozsHlimmmswmyQDf4YGSDgSNFJNg1pBsgSBelZJuXvvt499bj1HHXiqBNTyPBjxtYN7McMChlRJ37celZRJ6bnCwKRnUB2QnEHKGTQ84WoEysKuUKz+6D4gvX+BtkJ7aryY76u7YT1/sZuzgrP7lNhtXUDC1R8wWKAxaAeyLISr+ILdnNWsFXYuuFyFD9Z3c1ZoeKOa7HN0iq0fhQE/OWRp9qPax4J/i+2BP8C7xjGmVl6gscAAAAASUVORK5CYII=
     ) repeat;
     padding-bottom: 50px;
 }
@@ -33,7 +33,7 @@ img {
 
 h1.header {
     /* color: rgb(129, 21, 133) */
-    color: linear-gradient(#4b461d,rgb(7, 4, 0));
+    color: linear-gradient(#70088a,rgb(7, 4, 0));
     background-image: linear-gradient(#4b461d,rgb(7, 4, 0));
 }
 
