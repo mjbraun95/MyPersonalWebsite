@@ -133,7 +133,7 @@
 
     .left70Vid{
       /*align-self:end;*/
-      width: 100%
+      max-width: 100%
       height:auto;
       /* align-content:center; */
       object-fit: scale-down;
@@ -152,7 +152,7 @@
 </style>
 
 <div class="content">
-    <h3>3D Printer</h3>
+    <h3 class="fullBox">3D Printer</h3>
     
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
