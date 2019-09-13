@@ -40,7 +40,7 @@ jQuery.fn.center = function() {
     .content1 {
         max-width: 1000px;
         padding: 20px;
-        font-size: 8vw;
+        font-size: 1vw;
         width: 80%;
         background-color: white;
         border: 3px 3px 12px;
@@ -56,7 +56,7 @@ jQuery.fn.center = function() {
     .content2 {
         max-width: 1000px;
         padding: 20px;
-        font-size: 20px;
+        font-size: 1vw;
         width: 80%;
         background-color: white;
         border: 3px 3px 12px;
