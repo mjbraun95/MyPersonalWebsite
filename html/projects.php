@@ -91,6 +91,15 @@ jQuery.fn.center = function() {
       /* float:left; */
     }
 
+    .h3Header{
+      /*align-self:start;*/
+      width:100%;
+      height:auto;
+      /* grid-row:auto; */
+      align-content:center;
+      /* float:left; */
+    }
+
     .leftBox{
         grid-column-start: 1;
         grid-column-end: 2;
@@ -156,7 +165,7 @@ jQuery.fn.center = function() {
 
 
 <div class="content1">
-    <h3 class="fullBox">Tweet-Heat</h3>
+    <h3 class="h3Header">Tweet-Heat</h3>
     
     <div class="rightBox">
         <p style="padding-left: 20px; margin: 0 auto; float: right">
@@ -173,7 +182,7 @@ jQuery.fn.center = function() {
 
 
 <div class="content2">
-    <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
+    <h3 class="h3Header">AudioVisualizer</h3>
     
     <div class="leftBox">
         <p style="padding-right: 20px; margin: 0 auto; float: left">
