@@ -98,6 +98,7 @@ jQuery.fn.center = function() {
       /* grid-row:auto; */
       align-content:center;
       text-align: center;
+      padding-top: 80px;
     }
 
     .leftBox{
@@ -146,10 +147,8 @@ jQuery.fn.center = function() {
     }
 
 </style>
-
+<h3 class="h3Header">3D Printer</h3>
 <div class="content">
-    <h3 class="fullBox">3D Printer</h3>
-    
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
     </p>
