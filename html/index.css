@@ -42,6 +42,12 @@ h2.header {
     background-image: linear-gradient(#a01040,rgb(171, 46, 202));
 }
 
+div.header{
+    background:url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMklEQVQYlWNgYGAwZkAFxjjEcApgSOKTIGgSVpOxKcKqmGiFRFuNUwCHGFaT8erCGuAAtV8HLQ/j6goAAAAASUVORK5CYII=
+    ) repeat;
+ }
+
 /* navbar links */
 #navbar a {
     float: left;
