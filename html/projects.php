@@ -49,9 +49,8 @@
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
         display: grid;
-        grid-template-columns: 3,1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas: "a a b";
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
         height: auto;
     }
     .content2 {
@@ -66,9 +65,8 @@
         border-radius: 5px;
         box-shadow: 2px 2px 10px grey;
         display: grid;
-        grid-template-columns: 1,3fr;
-        grid-template-rows: auto auto;
-        grid-template-areas: "b a a";
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
         height: auto;
     }
 
@@ -93,22 +91,22 @@
       /* float:left; */
     }
 
-    .left30Box{
-      /*align-self:end;*/
-      height:auto;
-      /* align-content:center; */
-      width: 30%; 
-      float: left;
-      grid-area: b;
+    .leftBox{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
 
-    .right30Box{
-      /*align-self:end;*/
-      height:auto
-      /* align-content:center; */
+    .rightBox{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      /* height:auto
       width: 30%; 
       float: right;
-      grid-area: b;
+      grid-area: b; */
     }
 
     .left70Box{
@@ -171,12 +169,12 @@
 <div class="content1">
     <h3 class="fullBox">Tweet-Heat</h3>
     
-    <div class="right30Box">
+    <div class="rightBox">
         <p style="padding-left: 20px; margin: 0 auto; float: right">
             This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
     </div>
-    <div class="left70Box">
+    <div class="leftBox">
         <video controls class="left70Vid">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
@@ -188,12 +186,12 @@
 <div class="content2">
     <h3 style="background: none; border: none; box-shadow: none; text-align: center;">AudioVisualizer</h3>
     
-    <div class="left30Box">
+    <div class="leftBox">
         <p style="padding-right: 20px; margin: 0 auto; float: left">
             This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
     </div>
-    <div>
+    <div class="rightBox">
         <video controls class="right70Vid">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
