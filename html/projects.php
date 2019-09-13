@@ -138,9 +138,16 @@
       /* grid-area: a; */
     }
 
+    .vid60{
+        max-width: 600px;
+        height: auto;
+        object-fit: scale-down;
+        margin: auto;
+    }
+
     .right70Vid{
       /*align-self:end;*/
-      width: 100%
+      max-width: 600px;
       height:auto;
       /* align-content:center; */
       object-fit: scale-down;
@@ -175,7 +182,7 @@
         </p>
     </div>
     <div class="leftBox">
-        <video controls class="left70Vid">
+        <video controls class="vid60">
             <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
@@ -192,7 +199,7 @@
         </p>
     </div>
     <div class="rightBox">
-        <video controls class="right70Vid">
+        <video controls class="vid60">
             <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
     </div>
