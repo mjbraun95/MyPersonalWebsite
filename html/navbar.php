@@ -4,8 +4,8 @@
         <a href="projects.php" <?php if ($currentPage === 'Projects') {echo 'class="active"';} ?>>Projects</a></li>
         <a href="images/resume.pdf" <?php if ($currentPage === 'Resume') {echo 'class="active"';} ?>>Resume</a></li>
         <a href="contact.php" <?php if ($currentPage === 'Contact') {echo 'class="active"';} ?>>Contact</a></li>
-        <a href="github.php" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a></li>
-        <a href="linkedin.php" <?php if ($currentPage === 'LinkedIn') {echo 'class="active"';} ?>>LinkedIn</a></li>
+        <a href="https://github.com/mjbraun95/" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a></li>
+        <a href="https://www.linkedin.com/in/matthewbraun4/" <?php if ($currentPage === 'LinkedIn') {echo 'class="active"';} ?>>LinkedIn</a></li>
 
     </div>
     <script src="navbar.js"></script>
