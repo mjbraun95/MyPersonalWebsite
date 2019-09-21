@@ -164,29 +164,39 @@ p {
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-  }
+}
   
-  /* Control the left side */
-  .left {
+/* Control the left side */
+.left {
     left: 0;
-  }
+}
   
   /* Control the right side */
-  .right {
+.right {
     right: 0;
-  }
+}
   
   /* If you want the content centered horizontally and vertically */
-  .centered {
+.centered {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  /* Style the image inside the centered container, if needed */
-  /* .centered img {
-    width: 150px;
-    border-radius: 50%;
-  } */
+}
+
+.fullBox{
+    /*align-self:start;*/
+    width:100%;
+    height:auto;
+    /* grid-row:auto; */
+    align-content:center;
+    /* float:left; */
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    margin: auto;
+}

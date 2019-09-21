@@ -88,15 +88,6 @@ jQuery.fn.center = function() {
 
     }
 
-    .fullBox{
-      /*align-self:start;*/
-      width:100%;
-      height:auto;
-      /* grid-row:auto; */
-      align-content:center;
-      /* float:left; */
-    }
-
     .h3Header{
       /*align-self:start;*/
       width:100%;
