@@ -6,6 +6,15 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
+<style>
+    .responsive {
+        max-width: 100%;
+        height: auto;
+        object-fit: scale-down;
+        margin: auto;
+    }
+</style>
+
 <div class="content">
     
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
