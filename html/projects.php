@@ -146,15 +146,11 @@ jQuery.fn.center = function() {
 <h3 class="h3Header">3D Printer</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        This a delta 3D printer I made from scratch with a friend. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a 3D printed lion that it made.
+        This is a delta 3D printer I built from scratch. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. It is a similar build to a Kossel he parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a lion that I printed with it.
     </p>
     <div class="fullBox">
         <img src="images/3DPrinterLion1000.png" class="responsive">
-        <!-- <script type="text/javascript">
-        $('img').center();
-        </script> -->
     </div>
-
 </div>
 
 <a name="Tweet_Heat"></a>
@@ -167,7 +163,7 @@ jQuery.fn.center = function() {
     </div>
     <div class="leftBox" style="margin-right: 20px">
         <video controls class="vid">
-            <source src="images/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
+            <source src="videos/TweetHeatMute.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
     </div>
 </div>
@@ -182,8 +178,19 @@ jQuery.fn.center = function() {
     </div>
     <div class="rightBox" style="margin-left: 20px">
         <video controls class="vid">
-            <source src="images/AudioVisualizer.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
+            <source src="videos/AudioVisualizerMute.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
         </video>
+    </div>
+</div>
+
+<a name="MusicBoard"></a>
+<h3 class="h3Header">3D Printer</h3>
+<div class="content">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        This is a music synthesizer. The interface was created using PyGame, and communicates with and Atmel ATMega2560 Board using C++ and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). The synthesizer also includes features such as ADSR, LFO, and frequency filtering. ADSR (attack, decay, sustain, release) affects the volume of the note as you hold it over time. LFO (low frequency oscillator) creates a "wobbly" effect on the note, so as you hold the note down, the frequency moves up and down. You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
+    </p>
+    <div class="fullBox">
+        <img src="videos/MusicBoard.mp4" class="responsive">
     </div>
 </div>
 
