@@ -184,16 +184,41 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="MusicBoard"></a>
-<h3 class="h3Header">3D Printer</h3>
+<h3 class="h3Header">Music Board</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        This is a music synthesizer. The interface was created using PyGame, and communicates with and Atmel ATMega2560 Board using C++ and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). The synthesizer also includes features such as ADSR, LFO, and frequency filtering. ADSR (attack, decay, sustain, release) affects the volume of the note as you hold it over time. LFO (low frequency oscillator) creates a "wobbly" effect on the note, so as you hold the note down, the frequency moves up and down. You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
+        This is a music synthesizer. The interface was created using PyGame, and communicates with an Atmel ATMega2560 Board using C++, Arduino, and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        The synthesizer also includes features such as ADSR, LFO, and frequency range filtering.  
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        ADSR (attack, decay, sustain, release) affects the volume of the note as you hold it over time.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        LFO (low frequency oscillator) creates a "wobbly" effect on the note, so as you hold the note down, the frequency moves up and down. 
     </p>
     <div class="fullBox">
-        <img src="videos/MusicBoard.mp4" class="responsive">
+        <video controls class="vid">
+            <source src="videos/MusicBoard2.mp4" type="video/mp4">  
+        </video>
     </div>
 </div>
 
+<a name="ISM_Parser"></a>
+<h3 class="h3Header">ISM Parser</h3>
+<div class="content1">
+    <div class="rightBox">
+        <p style="padding-left: 20px; margin: 0 auto; float: right">
+            This is a project I was working on this summer. It's a web scraping program which collects data from instituteforsupplymanagement.org, specifically PMI (Product Manufacturing Index) and NMI (Non-Manufacturing Index) Reports. These reports are uploaded monthly, and have information about which different parts of which goods and services industries are growing, and which parts are shrinking, relative to each other. Check out the report to find out more information about it! This program collects all that data, along with industry comments and the report date, and writes it into an Excel spreadsheet using requests, BeautifulSoup and openpyxl modules in Python. This is one part of a larger program I am making with a friend that aims to design an algorithmic stock trading program which can invest in stocks profitably and autonomously.
+        </p>
+    </div>
+    <div class="leftBox" style="margin-right: 20px">
+        <video controls class="vid">
+            <source src="videos/ISM_Parser.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
+        </video>
+    </div>
+</div>
 
 </body>
 </html>
