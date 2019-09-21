@@ -18,13 +18,6 @@ jQuery.fn.center = function() {
 }
 </script>
 <style>
-    .responsive {
-        max-width: 100%;
-        height: auto;
-        object-fit: scale-down;
-        margin: auto;
-    }
-
     header {
         background: none; 
         border: none; 
@@ -198,13 +191,11 @@ jQuery.fn.center = function() {
 
 <a name="ISM_Parser"></a>
 <h3 class="h3Header">ISM Parser</h3>
-<div class="content1">
-    <div class="rightBox">
-        <p style="padding-left: 20px; margin: 0 auto; float: right">
-            This is a project I was working on this summer. It's a web scraping program which collects data from instituteforsupplymanagement.org, specifically PMI (Product Manufacturing Index) and NMI (Non-Manufacturing Index) Reports. These reports are uploaded monthly, and have information about which different parts of which goods and services industries are growing, and which parts are shrinking, relative to each other. Check out the report to find out more information about it! This program collects all that data, along with industry comments and the report date, and writes it into an Excel spreadsheet using requests, BeautifulSoup and openpyxl modules in Python. This is one part of a larger program I am making with a friend that aims to design an algorithmic stock trading program which can invest in stocks profitably and autonomously.
-        </p>
-    </div>
-    <div class="leftBox" style="margin-right: 20px">
+<div class="content">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        This is a project I was working on this summer. It's a web scraping program which collects data from instituteforsupplymanagement.org, specifically PMI (Product Manufacturing Index) and NMI (Non-Manufacturing Index) Reports. These reports are uploaded monthly, and have information about which different parts of which goods and services industries are growing, and which parts are shrinking, relative to each other. Check out the report to find out more information about it! This program collects all that data, along with industry comments and the report date, and writes it into an Excel spreadsheet using requests, BeautifulSoup and openpyxl modules in Python. This is one part of a larger program I am making with a friend that aims to design an algorithmic stock trading program which can invest in stocks profitably and autonomously.
+    </p>
+    <div class="fullBox">
         <video controls class="vid">
             <source src="videos/ISM_Parser.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
         </video>
