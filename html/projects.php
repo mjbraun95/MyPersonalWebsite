@@ -141,6 +141,7 @@ jQuery.fn.center = function() {
 <h3 class="h3Header">Tweet Heat</h3>
 <div class="content1">
     <div class="rightBox">
+        <a href="https://github.com/mjbraun95/Tweet-Heat" class="h3Header" target="_blank">Github Repository</a>
         <p style="padding-left: 20px; margin: 0 auto; float: right">
             This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
@@ -156,6 +157,7 @@ jQuery.fn.center = function() {
 <h3 class="h3Header">Audio Visualizer</h3>
 <div class="content2">
     <div class="leftBox">
+        <a href="https://github.com/mjbraun95/AudioVisualizer" class="h3Header" target="_blank">Github Repository</a>
         <p style="padding-right: 20px; margin: 0 auto; float: left">
             This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
@@ -170,6 +172,7 @@ jQuery.fn.center = function() {
 <a name="MusicBoard"></a>
 <h3 class="h3Header">Music Board</h3>
 <div class="content">
+    <a href="https://github.com/mjbraun95/MusicBoard" class="h3Header" target="_blank">Github Repository</a> 
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This is a music synthesizer. The interface was created using PyGame, and communicates with an Atmel ATMega2560 Board using C++, Arduino, and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
     </p>
@@ -192,6 +195,7 @@ jQuery.fn.center = function() {
 <a name="ISM_Parser"></a>
 <h3 class="h3Header">ISM Parser</h3>
 <div class="content">
+    <a href="https://github.com/mjbraun95/ISM_Parser" class="h3Header" target="_blank">Github Repository</a> 
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This is a project I was working on this summer. It's a web scraping program which collects data from instituteforsupplymanagement.org, specifically PMI (Product Manufacturing Index) and NMI (Non-Manufacturing Index) Reports. These reports are uploaded monthly, and have information about which different parts of which goods and services industries are growing, and which parts are shrinking, relative to each other. Check out the report to find out more information about it! This program collects all that data, along with industry comments and the report date, and writes it into an Excel spreadsheet using requests, BeautifulSoup and openpyxl modules in Python. This is one part of a larger program I am making with a friend that aims to design an algorithmic stock trading program which can invest in stocks profitably and autonomously.
     </p>
