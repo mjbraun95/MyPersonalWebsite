@@ -197,7 +197,7 @@ jQuery.fn.center = function() {
     </p>
     <div class="fullBox">
         <video controls class="vid">
-            <source src="videos/ISM_Parser.mp4" type="video/mp4" style="float:left; margin-right: 20px;">  
+            <source src="videos/ISM_Parser2.mp4" type="video/mp4">  
         </video>
     </div>
 </div>
