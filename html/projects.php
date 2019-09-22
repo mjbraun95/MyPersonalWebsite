@@ -187,7 +187,7 @@ jQuery.fn.center = function() {
     </p>
     <div class="fullBox">
         <video controls class="vid">
-            <source src="videos/MusicBoard2.mp4" type="video/mp4">  
+            <source src="videos/MusicBoard.mp4" type="video/mp4">  
         </video>
     </div>
 </div>
@@ -201,7 +201,7 @@ jQuery.fn.center = function() {
     </p>
     <div class="fullBox">
         <video controls class="vid">
-            <source src="videos/ISM_Parser2.mp4" type="video/mp4">  
+            <source src="videos/ISM_Parser.mp4" type="video/mp4">  
         </video>
     </div>
 </div>
