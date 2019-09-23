@@ -96,7 +96,7 @@ jQuery.fn.center = function() {
       /*align-self:start;*/
       width:100%;
       height:auto;
-      /* font-size: 2vw; */
+      font-size: 2vw;
       /* grid-row:auto; */
       align-content:center;
       text-align: center;
