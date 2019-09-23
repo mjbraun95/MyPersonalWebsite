@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 28px;
+    /* font-size: 28px; */
     font-family: Verdana,Geneva,sans-serif; 
     vertical-align: center;
     /* background: rgb(125, 200, 250); */
@@ -18,11 +18,11 @@ body {
   height: 400px;
 }
 
-img {
+/* img {
     max-height: 100%;
     width: auto;
     object-fit: scale-down;
-}
+} */
 
 .header {
     /* background-color: rgb(171, 46, 202); */
@@ -87,7 +87,7 @@ div.header{
     max-width: 1000px;
 
     padding: 20px;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     width: 80%;
     background-color: white;
     border: 3px 3px 12px;
@@ -123,13 +123,19 @@ div.header{
 
 p {
     padding: 10px;
-    /* font-size: 16vw; */
+    font-size: 2vw;
     width: 95%;
     align-content: center;
     margin: auto;
 } 
 @media screen and (min-width: 1920px) {
     p {
+ font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    a {
  font-size: 36px;
     }
 }
@@ -199,4 +205,6 @@ p {
     height: auto;
     object-fit: scale-down;
     margin: auto;
+    max-height: 100%;
+    width: auto;
 }
