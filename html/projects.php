@@ -169,17 +169,17 @@ jQuery.fn.center = function() {
 <a name="Audio_Visualizer"></a>
 <h3 class="h3Header">Audio Visualizer</h3>
 <div class="content2">
-    <div class="rightBox" style="margin-left: 20px">
-        <video controls class="vid">
-            <source src="videos/AudioVisualizerMute.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
-        </video>
-    </div>
     <div class="leftBox">
         <img src="images/Github.png" class="responsiveIcon">
         <a href="https://github.com/mjbraun95/AudioVisualizer" target="_blank" class="h3Header">Repository</a>
         <p style="padding-right: 20px; margin: 0 auto; float: left">
             This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
+    </div>
+    <div class="rightBox" style="margin-left: 20px">
+        <video controls class="vid">
+            <source src="videos/AudioVisualizerMute.mp4" type="video/mp4" style="float: right; margin-right: 20px;">  
+        </video>
     </div>
 </div>
 
