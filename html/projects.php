@@ -73,10 +73,10 @@ jQuery.fn.center = function() {
         grid-template-rows: 100%;
         height: auto;
     }
-    @media screen and (min-width: 220px) {
+    /* @media screen and (min-width: 220px) {
         .content2 {
      font-size: 12px;
-    }
+    } */
 
 }
 
