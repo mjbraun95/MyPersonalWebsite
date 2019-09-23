@@ -55,8 +55,7 @@ jQuery.fn.center = function() {
         grid-template-columns: 60% 40%;
         grid-template-rows: 100%;
         height: auto;
-    }      width:100%;
-      height:auto;
+    }
     .content2 {
         max-width: 1000px;
         padding: 20px;
