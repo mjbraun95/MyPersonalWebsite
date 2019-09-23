@@ -32,7 +32,7 @@ jQuery.fn.center = function() {
     }
 
     .responsiveIcon {
-        max-width: 2vw !important;
+        max-width: 1vw !important;
         height: auto !important;
         object-fit: scale-down;
         float: left;
@@ -96,7 +96,7 @@ jQuery.fn.center = function() {
       /*align-self:start;*/
       width:100%;
       height:auto;
-      font-size: 2vw;
+      font-size: 1vw;
       /* grid-row:auto; */
       align-content:center;
       text-align: center;
