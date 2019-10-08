@@ -141,7 +141,7 @@ jQuery.fn.center = function() {
 <h3 class="h3Header">3D Printer</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        This is a delta 3D printer I built from scratch. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. It is a similar build to a Kossel he parts for this printer were all ordered online separately. The printer can print with PLA and ABS plastic filament. On the right is a lion that I printed with it.
+        This is a delta 3D printer I built from scratch. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The design is quite similar to a Kossel XL, however all of the parts were ordered online separately, from Aliexpress. The printer can print with PLA and ABS plastic filament. On the right is a lion that I printed with it.
     </p>
     <div class="fullBox">
         <img src="images/3DPrinterLion1000.png" class="responsive">
