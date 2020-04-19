@@ -133,7 +133,7 @@ jQuery.fn.center = function() {
 
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        Here's a list of some of my favourite projects I've worked on. This list is not extensive, I plan on adding more of my projects in the near future!
+        Here's a list of some of my favourite projects I've worked on. This list is not extensive, I plan on adding more of my projects in the future!
     </p>
 </div>
 
