@@ -77,7 +77,6 @@ jQuery.fn.center = function() {
      font-size: 12px;
     } */
 
-}
 
     .wrapper{
         display:grid;
