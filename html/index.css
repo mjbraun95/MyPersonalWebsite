@@ -39,20 +39,20 @@ h1.header {
     /* background-image: linear-gradient(#4b461d,rgb(7, 4, 0)); */
 }
 
-h2.header {
+h2 {
     color: grey;
 }
 
 #navbar {
     overflow: hidden;
-    background-image: linear-gradient(#363f03,rgb(133, 124, 0));
+    background-image: linear-gradient(#2c2c2c,rgb(87, 87, 87));
 }
 
 div.header{
     /* background:url(
         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAqklEQVQYlXWQsQ3EIBAELyQlQUKiCAIo4Gpy6Eq2F5KrAFISuwU64APreNuvj290O7uUuMIMCzMsJFckrgilI3GF5OuWuILMsBC/PaBQOlo8IblC/AYzLEhyXdAeD3hhkJs/XylxRYsnQukgN5cGuYk9HgsmjVKopYaWGsyw8MLrM6mXF/4BVSGUfjmq3ztaS31b3xqTm/DCDz/Jr3m01L3xmkcH/ze2Dv4BSdrIYalHpKgAAAAASUVORK5CYII=
     ) repeat; */
-    background-image: radial-gradient(rgb(7, 4, 0),#300040);
+    background-image: conic-gradient(#300040,rgb(4, 0, 25),#300040,rgb(4, 0, 15),#300040);
  }
 
 /* navbar links */
@@ -88,7 +88,7 @@ div.header{
     padding: 20px;
     width: 85%;
     /* background-color: rgb(44, 44, 44); */
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     align-content: center;
     margin: auto;
     border-radius: 5px;
