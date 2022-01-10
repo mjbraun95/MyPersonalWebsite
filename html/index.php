@@ -16,9 +16,8 @@
 </style>
 
 <div class="content">
-    
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        Welcome to my website! I'm a third year Computer Engineering Co-op student, attending the University of Alberta. Currently, I'm available for a 4 month work placement starting in May 2020, preferably in software development. I've been learning a lot about web development lately. Along with this website, I've been doing web development work for DevFacto as a Software Consultant, doing mostly backend work, on a 4 month internship from January to April 2020. Last summer, I was working at Compugen as a Deskside Support Technician, providing support at several different Edmonton offices for the Government of Alberta. If you would like references from me, or have any other questions, please let me know by email or by phone!
+        I'm a fourth year Computer Engineering Co-op student at the University of Alberta. Currently, I'm available for an 8 month work placement starting in May 2022. Along with this website, I've done web development for DevFacto as a Software Consultant, doing mostly backend work. Prior to that I was working at Compugen as a Deskside Support Technician doing contract work for the Government of Alberta.
     </p>
     <div class="fullBox">
         <img src="images/Doggo.png" class="responsive">
