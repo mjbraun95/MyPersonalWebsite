@@ -158,7 +158,7 @@ div.content {
     padding: 20px;
     width: 85%;
     /* background-color: rgb(44, 44, 44); */
-    background-image: linear-gradient(rgb(48, 48, 48),rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(36, 36, 36),rgb(0, 0, 0));
     align-content: center;
     margin: auto;
     border-radius: 5px;
@@ -170,7 +170,7 @@ div.content1 {
     padding: 20px;
     /* font-size: 2vw; */
     width: 80%;
-    background-image: linear-gradient(to left,rgb(50, 50, 50),rgb(0, 0, 0));
+    background-image: linear-gradient(to left,rgb(36, 36, 36),rgb(0, 0, 0));
     border: 3px 3px 12px;
     align-content: center;
     margin: auto;
@@ -186,7 +186,7 @@ div.content2 {
     padding: 20px;
     /* font-size: 2vw; */
     width: 80%;
-    background-image: linear-gradient(to right,rgb(50, 50, 50),rgb(0, 0, 0));
+    background-image: linear-gradient(to right,rgb(36, 36, 36),rgb(0, 0, 0));
     border: 3px 3px 12px;
     align-content: center;
     margin: auto;
