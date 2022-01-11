@@ -17,7 +17,7 @@
 </style>
 
 <div class="content">
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+    <p class="fullBox">
         I'm a fourth year Computer Engineering Co-op student at the University of Alberta. Currently, I'm available for an 8 month work placement starting in May 2022. Along with this website, I've done web development for DevFacto as a Software Consultant, doing mostly backend work. Prior to that I was working at Compugen as a Deskside Support Technician doing contract work for the Government of Alberta.
     </p>
     <div class="fullBox">

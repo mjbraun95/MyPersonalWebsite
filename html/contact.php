@@ -10,7 +10,7 @@
 
 <div class="content">
     <p style="font-family: Arial, Helvetica, sans-serif" >
-        Email: <a href="mailto:mjbraun@ualberta.ca">mjbraun@ualberta.ca</a>
+        Email: <a style=font-color:grey; href="mailto:mjbraun@ualberta.ca">mjbraun@ualberta.ca</a>
         <br>Phone: (780)-318-2895
     </p>
 </div>         

@@ -1,12 +1,14 @@
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
     p {
-        font-size: 36px;
+        font-size: 20px;
     }
     a {
-        font-size: 36px;
+        font-size: 20px;
     }
+} */
+a {
+    font-size: 20px;
 }
-
 /* navbar height 49px */
 @media screen and (min-width: 574px) {
     div.nav-wrapper {
@@ -30,8 +32,6 @@ body {
     /* font-size: 28px; */
     font-family: Verdana,Geneva,sans-serif; 
     vertical-align: center;
-    /* background: rgb(125, 200, 250); */
-    /* background: rgba(200,205,209,0.7); */
     background: rgb(4, 0, 15);
     /* background-image: linear-gradient(rgb(125, 150, 243),rgb(160, 130, 220)); */
     /* url(
@@ -54,23 +54,26 @@ img {
 }
 
 .header {
+    color: rgb(234, 236, 255);
     padding: 15px;
     text-align: center;
 }
 
 h3.header{
     /*align-self:start;*/
-    width:100%;
+    width:85%;
     height:auto;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+    margin: auto;
     /* grid-row:auto; */
     align-content:center;
-    text-align: center;
+    text-align:center;
     padding-top: 80px;
     /* font-size: 50px; */
 }
 
 .leftBox{
+    margin-right: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -115,7 +118,7 @@ h1.header {
     /* color: rgb(129, 21, 133) */
     /* color: linear-gradient(#70088a,rgb(7, 4, 0)); */
     /* background: black; */
-    color: rgb(234, 236, 255);
+    /* color: rgb(234, 236, 255); */
     /* background-image: linear-gradient(#4b461d,rgb(7, 4, 0)); */
 }
 
@@ -125,7 +128,7 @@ h2 {
 
 #navbar {
     overflow: hidden;
-    background-image: linear-gradient(rgb(32, 32, 32),rgb(24, 24, 24));
+    background-image: linear-gradient(rgb(32, 32, 32),rgb(15, 15, 15));
 }
 
 div.header{
@@ -164,44 +167,44 @@ div.header{
 }
 
 /* page content */
-.content {
+div.content {
     padding: 20px;
     width: 85%;
     /* background-color: rgb(44, 44, 44); */
-    background-image: linear-gradient(rgb(32, 32, 32),rgb(29, 29, 29));
+    background-image: linear-gradient(rgb(48, 48, 48),rgb(0, 0, 0));
     align-content: center;
     margin: auto;
     border-radius: 5px;
     box-shadow: 0px 0px 15px #300040
 }
 
-.content1 {
+div.content1 {
     max-width: 1000px;
     padding: 20px;
     /* font-size: 2vw; */
     width: 80%;
-    background-color: white;
+    background-image: linear-gradient(to left,rgb(50, 50, 50),rgb(0, 0, 0));
     border: 3px 3px 12px;
     align-content: center;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px grey;
+    box-shadow: 2px 2px 10px #300040;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 100%;
     height: auto;
 }
-.content2 {
+div.content2 {
     max-width: 1000px;
     padding: 20px;
     /* font-size: 2vw; */
     width: 80%;
-    background-color: white;
+    background-image: linear-gradient(to right,rgb(50, 50, 50),rgb(0, 0, 0));
     border: 3px 3px 12px;
     align-content: center;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px grey;
+    box-shadow: 2px 2px 10px #300040;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
@@ -237,8 +240,8 @@ div.header{
 
 p {
     color:  rgb(172, 172, 172);
-    padding: 10px;
-    font-size: 2vw;
+    /* padding: 10px; */
+    font-size: 20px;
     width: 95%;
     align-content: center;
     margin: auto;
@@ -297,9 +300,10 @@ p {
 }
 
 .fullBox{
-    /*align-self:start;*/
+    padding-bottom: 20px;
     width:100%;
     height:auto;
+    margin: 0 auto;
     /* grid-row:auto; */
     align-content:center;
     /* float:left; */
