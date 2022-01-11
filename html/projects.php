@@ -2,7 +2,7 @@
 <?php $currentPage = 'Projects'; ?>
 
 <?php include('head.php'); ?>
-<div class="nav-wrapper" style="height:80px;">
+<div class="nav-wrapper">
     <?php include('navbar.php'); ?>
 </div>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -19,118 +19,6 @@ jQuery.fn.center = function() {
     return this.css('position', 'absolute').css({ 'margin-left': left + 'px', 'margin-top': top + 'px', 'left': '50%', 'top': '50%' });
 }
 </script>
-<style>
-    header {
-        background: none; 
-        border: none; 
-        box-shadow: none; 
-        text-align: center;
-    }
-
-    .responsiveVid {
-        max-width: 70%;
-        height: auto;
-        object-fit: scale-down;
-    }
-
-    .responsiveIcon {
-        max-width: 1.5vw !important;
-        height: auto !important;
-        object-fit: scale-down;
-        float: left;
-        font-size: 36px;
-        padding-right: 8px;
-    }
-
-    .content1 {
-        max-width: 1000px;
-        padding: 20px;
-        /* font-size: 2vw; */
-        width: 80%;
-        background-color: white;
-        border: 3px 3px 12px;
-        align-content: center;
-        margin: auto;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px grey;
-        display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 100%;
-        height: auto;
-    }
-    .content2 {
-        max-width: 1000px;
-        padding: 20px;
-        /* font-size: 2vw; */
-        width: 80%;
-        background-color: white;
-        border: 3px 3px 12px;
-        align-content: center;
-        margin: auto;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px grey;
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-template-rows: 100%;
-        height: auto;
-    }
-    /* @media screen and (min-width: 220px) {
-        .content2 {
-     font-size: 12px;
-    } */
-
-
-    .wrapper{
-        display:grid;
-        grid-gap:1em;
-    }
-    .wrapper > div{
-        background:#eee;
-        padding:1em;
-    }
-    .printerVid {
-
-    }
-
-    .h3Header{
-      /*align-self:start;*/
-      width:100%;
-      height:auto;
-      font-size: 1.5vw;
-      /* grid-row:auto; */
-      align-content:center;
-      text-align: center;
-      padding-top: 80px;
-      /* font-size: 50px; */
-    }
-
-    .leftBox{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .rightBox{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-      /* height:auto
-      width: 30%; 
-      float: right;
-      grid-area: b; */
-    }
-
-    .vid{
-        max-width: 100%;
-        height: auto;
-        object-fit: scale-down;
-        /* object-fit: contain;
-        margin: auto; */
-    }
-
-</style>
 
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
@@ -139,10 +27,10 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="3D_Printer"></a>
-<h3 class="h3Header">3D Printer</h3>
+<h3 class="header">3D Printer</h3>
 <div class="content">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        This is a delta 3D printer I built from scratch. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable diameter base of 25cm. The design is quite similar to a Kossel XL, however all of the parts were ordered online separately, from Aliexpress. The printer can print with PLA and ABS plastic filament. On the right is a lion that I printed with it.
+        This is a delta 3D printer I built from scratch. It is roughly 1 meter tall, and can print structures up to half that height. It also has a printable base diameter of 25cm. The design is quite similar to a Kossel XL, however all of the parts were ordered online separately, from Aliexpress. The printer can print with PLA and ABS plastic filament. On the right is a lion that I printed with it.
     </p>
     <div class="fullBox">
         <img src="images/3DPrinterLion1000.png" class="responsive">
@@ -150,11 +38,11 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="Tweet_Heat"></a>
-<h3 class="h3Header">Tweet Heat</h3>
+<h3 class="header">Tweet Heat</h3>
 <div class="content1">
     <div class="rightBox">
         <img src="images/Github.png" class="responsiveIcon">
-        <a href="https://github.com/mjbraun95/Tweet-Heat" target="_blank" class="h3Header">Repository</a>
+        <a href="https://github.com/mjbraun95/Tweet-Heat" target="_blank" class="header">Repository</a>
         <p style="padding-left: 20px; margin: 0 auto; float: right">
             This project was made for a hackathon in November of 2018. It's a program that grabs live Tweets from Twitter which have location data, using an API key. Then, it plots those locations onto a heat map across North America, refreshing every 5 seconds. The more red the area is, the more people are tweeting from that area.
         </p>
@@ -167,11 +55,11 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="Audio_Visualizer"></a>
-<h3 class="h3Header">Audio Visualizer</h3>
+<h3 class="header">Audio Visualizer</h3>
 <div class="content2">
     <div class="leftBox">
         <img src="images/Github.png" class="responsiveIcon">
-        <a href="https://github.com/mjbraun95/AudioVisualizer" target="_blank" class="h3Header">Repository</a>
+        <a href="https://github.com/mjbraun95/AudioVisualizer" target="_blank" class="header">Repository</a>
         <p style="padding-right: 20px; margin: 0 auto; float: left">
             This program generates a volume-frequency wave over time from any MP3/WAV file using the fast-fourier transform algorithm. This shows which frequencies (or notes) are playing, and how loud each note is playing, over the entire length of the MP3/WAV file. The data was represented with Qt, in 2D with a moving bar graph over time, as well as a partial 3D moving bar array graph over time.
         </p>
@@ -184,10 +72,10 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="MusicBoard"></a>
-<h3 class="h3Header">Music Board</h3>
+<h3 class="header">Music Board</h3>
 <div class="content">
     <img src="images/Github.png" class="responsiveIcon">
-    <a href="https://github.com/mjbraun95/MusicBoard" target="_blank" class="h3Header">Repository</a> 
+    <a href="https://github.com/mjbraun95/MusicBoard" target="_blank" class="header">Repository</a> 
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This is a music synthesizer. The interface was created using PyGame, and communicates with an Atmel ATMega2560 Board using C++, Arduino, and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
     </p>
@@ -208,10 +96,10 @@ jQuery.fn.center = function() {
 </div>
 
 <a name="ISM_Parser"></a>
-<h3 class="h3Header">ISM Parser</h3>
+<h3 class="header">ISM Parser</h3>
 <div class="content">
     <img src="images/Github.png" class="responsiveIcon">
-    <a href="https://github.com/mjbraun95/ISM_Parser" target="_blank" class="h3Header">Repository</a> 
+    <a href="https://github.com/mjbraun95/ISM_Parser" target="_blank" class="header">Repository</a> 
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
         This is a project I was working on this summer. It's a web scraping program which collects data from instituteforsupplymanagement.org, specifically PMI (Product Manufacturing Index) and NMI (Non-Manufacturing Index) Reports. These reports are uploaded monthly, and have information about which different parts of which goods and services industries are growing, and which parts are shrinking, relative to each other. Check out the report to find out more information about it! This program collects all that data, along with industry comments and the report date, and writes it into an Excel spreadsheet using requests, BeautifulSoup and openpyxl modules in Python. This is one part of a larger program I am making with a friend that aims to design an algorithmic stock trading program which can invest in stocks profitably and autonomously.
     </p>

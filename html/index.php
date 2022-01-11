@@ -2,7 +2,7 @@
 <?php $currentPage = 'About'; ?>
 
 <?php include('head.php'); ?>
-<div class="nav-wrapper" style="height:80px;">
+<div class="nav-wrapper">
     <?php include('navbar.php'); ?>
 </div>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 

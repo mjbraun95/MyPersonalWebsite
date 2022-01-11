@@ -2,7 +2,7 @@
 <?php $currentPage = 'Contact'; ?>
 
 <?php include('head.php'); ?>
-<div class="nav-wrapper" style="height:80px;">
+<div class="nav-wrapper">
     <?php include('navbar.php'); ?>
 </div>
 

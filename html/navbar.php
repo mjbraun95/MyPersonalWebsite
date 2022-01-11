@@ -6,7 +6,6 @@
         <a href="contact.php" <?php if ($currentPage === 'Contact') {echo 'class="active"';} ?>>Contact</a></li>
         <a href="https://github.com/mjbraun95/" target="_blank" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a></li>
         <a href="https://www.linkedin.com/in/matthewbraun4/" target="_blank" <?php if ($currentPage === 'LinkedIn') {echo 'class="active"';} ?>>LinkedIn</a></li>
-
     </div>
     <script src="navbar.js"></script>
 </header>
