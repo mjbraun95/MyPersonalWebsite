@@ -23,7 +23,7 @@
         I'm a 4th year Computer Engineering Co-op student at the University of Alberta. <br>
         I'm currently available for an 8 month work term, starting in May 2022. <br><br>
 
-        Last summer, I worked for a small concrete & asphalt repair company. <br>
+        Last summer, I worked as a developer for a concrete & asphalt repair business. <br>
         I developed and hosted a website for the company as well as created SQL databases to manage their assets, clients, and contracts. I also wrote some Python programs to parse this data and find ways to save costs and increase their profits. <br><br>
 
         In winter of 2020, I worked for DevFacto as a Software Consultant.<br>
