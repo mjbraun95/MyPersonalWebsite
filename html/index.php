@@ -23,13 +23,16 @@
         I'm a 4th year Computer Engineering Co-op student at the University of Alberta. <br>
         I'm currently available for an 8 month work term, starting in May 2022. <br><br>
 
-        In the past, I worked for DevFacto as a Software Consultant. I did web development work for one of their largest clients, ASEBP. <br>
-        I mostly did back end work on ASEBP's website using C#, .NET Framework, and SQL databases. I wrote and business rules and unit tests to calculate insurance eligibility, coverage, etc. for ASEBP's clients. I also did some front end work using React Framework and Typescript. During my time here, my team and I utilized agile software practices, such as SCRUM, daily sprints, daily stand-ups, daily meetings to consult with clients face-to-face, either in-person or over Teams. The team collaborated together using Azure DevOps and I would submit pull requests to production regularly. <br><br>
+        Last summer, I worked for a small concrete & asphalt repair company. <br>
+        I developed and hosted a website for the company as well as created SQL databases to manage their assets, clients, and contracts. I also wrote some Python programs to parse this data and find ways to save costs and increase their profits. <br><br>
 
-        Prior to that, I worked for Compugen, as an Deskside Support Technician. <br>
+        In winter of 2020, I worked for DevFacto as a Software Consultant.<br>
+        I did web development work for one of their largest clients, ASEBP. I mostly did back end work on ASEBP's site using C#, .NET Framework, and SQL databases. I wrote and business rules and unit tests to calculate insurance eligibility, coverage, etc. for ASEBP's clients. I also did some front end work using React Framework and Typescript. During my time here, my team and I utilized agile software development practices, such as SCRUM, daily sprints, daily stand-ups, daily meetings to consult with clients face-to-face, either in-person or over Teams. The team collaborated together using Azure DevOps and I would submit pull requests to production regularly. <br><br>
+
+        Prior to that, I worked for Compugen in the summer of 2019, as an Deskside Support Technician. <br>
         I provided IT support for the Government of Alberta (Compugen's main client at the time). This involved network diagnostics, hard drive recovery, reimaging, diagnosing faulty hardware, drivers, etc. at several different Alberta Government offices in Edmonton during this time. <br><br>
 
-        In the summer, I worked for BC Hydro. I did construction work at the Site C Hydroelectric dam in Fort St. John, BC. I would work for 12 hours a day, 7 days a week, for 2-4 weeks, then get flown back home for a week. I worked with a large team repairing widespread concrete damage within two massive underground water diversion tunnels, each tunnel 30 feet in diameter and over 1km in length. This job wasn't very relevant to my degree, but I hope it highlights my great work ethic.
+        In the summer of 2020, I worked for BC Hydro. I did construction work at the Site C Hydroelectric dam in Fort St. John, BC. I would work for 12 hours a day, 7 days a week, for 2-4 weeks, then get flown back home for a week. I worked with a large team repairing widespread concrete damage within two massive underground water diversion tunnels, each tunnel 30 feet in diameter and over 1km in length. This job wasn't very relevant to my degree, but I hope it highlights my great work ethic.
     
     </p>
     <div class="fullBox">
