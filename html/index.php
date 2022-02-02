@@ -24,7 +24,7 @@
         I'm currently available for an 8 month work term, starting in May 2022. <br><br>
 
         Last summer, I worked as a developer for a concrete & asphalt repair business. <br>
-        I developed and hosted a website for the company as well as created SQL databases to manage their assets, clients, and contracts. I also wrote some Python programs to parse this data and find ways to save costs and increase their profits. <br><br>
+        I developed and hosted a website for the company as well as created SQL databases to manage their assets, clients, and contracts. I also wrote some Python programs to parse this data and found ways to save costs and increase the company's profits. <br><br>
 
         In winter of 2020, I worked for DevFacto as a Software Consultant.<br>
         I did web development work for one of their largest clients, ASEBP. I mostly did back end work on ASEBP's site using C#, .NET Framework, and SQL databases. I wrote business rules and unit tests to calculate insurance eligibility, coverage, etc. for ASEBP's clients. I also did some front end work using React Framework and Typescript. During my time there, my team and I utilized agile software development practices, such as SCRUM, daily sprints, daily stand-ups, daily meetings to consult with clients face-to-face, either in-person or over Teams. The team collaborated together using Azure DevOps and I would submit pull requests to production regularly. <br><br>
