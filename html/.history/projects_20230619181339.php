@@ -55,15 +55,13 @@ jQuery.fn.center = function() {
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
 
         This project was made in a group of 4 for our Computer Engineering Capstone Project. In this project, we designed a three-wheeled robot in a group of 4 to autonomously plant seeds in a field It uses a LiDAR camera to detect objects, GPS + motors to navigate to the planting locations, and a servo motor to dispense different seed types. The navigation system was programmed in Python and largely used the adafruit_gps library to interface with the GPS module.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+
         The Serial Python library was used to connect the GPS module directly using the TX and RX pins. The system stores the latitudinal and longitudinal coordinates of all the locations entered through the GUI and removes each location point from the path as it reaches it to plant the seeds.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+
         The motor driver board is controlled using GPIO pins from the Raspberry Pi. There is a direction input pin, as well as, a Pulse Width Modulation (PWM) input pin for each motor. The PWM input pins are used to control the speed of each motor. The DC motors have PWM outputs from their encoders, which are fed back into the Pi to send feedback on how many rotations each wheel does over time.
     </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
-        <iframe class="vid" style="margin-right: 20px;" width="560" height="315" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        <iframe class="vid" style="float:left; margin-right: 20px;" width="560" height="315" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
 
 </div>

@@ -195,7 +195,7 @@ div.content1a {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: 100%;
-    height: auto;
+    height: 500px;
 }
 div.content2 {
     max-width: 1000px;

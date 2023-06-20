@@ -26,46 +26,20 @@ jQuery.fn.center = function() {
     </p>
 </div>
 
-<!-- <img src="images/Github.png" class="responsiveIcon">
-    <a href="https://github.com/mjbraun95/MusicBoard" target="_blank" class="header">Github Link</a> 
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        This is a music synthesizer. The interface was created using PyGame, and communicates with an Atmel ATMega2560 Microcontroller Board using C++, Arduino, and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        The synthesizer also includes features such as ADSR, LFO, and frequency range filtering.  
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        ADSR (attack, decay, sustain, release) affects the volume of the note as you hold it over time.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        LFO (low frequency oscillator) creates a "wobbly" effect on the note, so as you hold the note down, the frequency moves up and down. 
-    </p>
-    <div class="fullBox">
-        <video controls class="vid">
-            <source src="videos/MusicBoard.mp4" type="video/mp4">  
-        </video>
-    </div> -->
-
 <a name="SPR"></a>
 <h3 class="header">Seed Planting Robot</h3>
-<div class="content">
-    <img src="images/Github.png" class="responsiveIcon">
-    <a href="https://github.com/mjbraun95/Seed_Planting_Robot" target="_blank" class="header">Github Link</a>
-    <p style="margin: 0 auto; float: left">
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-
-        This project was made in a group of 4 for our Computer Engineering Capstone Project. In this project, we designed a three-wheeled robot in a group of 4 to autonomously plant seeds in a field It uses a LiDAR camera to detect objects, GPS + motors to navigate to the planting locations, and a servo motor to dispense different seed types. The navigation system was programmed in Python and largely used the adafruit_gps library to interface with the GPS module.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        The Serial Python library was used to connect the GPS module directly using the TX and RX pins. The system stores the latitudinal and longitudinal coordinates of all the locations entered through the GUI and removes each location point from the path as it reaches it to plant the seeds.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-        The motor driver board is controlled using GPIO pins from the Raspberry Pi. There is a direction input pin, as well as, a Pulse Width Modulation (PWM) input pin for each motor. The PWM input pins are used to control the speed of each motor. The DC motors have PWM outputs from their encoders, which are fed back into the Pi to send feedback on how many rotations each wheel does over time.
-    </p>
-    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
-        <iframe class="vid" style="margin-right: 20px;" width="560" height="315" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-
+<div class="content1a">
+    <div class="rightBox">
+        <img src="images/Github.png" class="responsiveIcon">
+        <a href="https://github.com/mjbraun95/Seed_Planting_Robot" target="_blank" class="header">Github Link</a>
+        <p style="margin: 0 auto; float: left">
+            This project was made in a group of 4 for our Computer Engineering Capstone Project. In this project, we designed a three-wheeled robot in a group of 4 to autonomously plant seeds in a field
+  \item Uses a LiDAR camera to detect objects, GPS + motors to navigate to the planting locations, and a servo motor to dispense different seed types
+        </p>
+    </div>
+    <div class="leftBox">
+        <iframe class="vid" style="float:left; margin-right: 20px;" width="560" height="315" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
 
 <a name="3D_Printer"></a>
