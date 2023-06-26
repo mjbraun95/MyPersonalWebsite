@@ -22,7 +22,7 @@ jQuery.fn.center = function() {
 
 <div class="content">
     <p class="fullBox">
-        Here's a list of some of my favourite projects I've worked on. This list is not exhaustive. Check out my Github if you want to see more!
+        Here's a list of some of my favourite projects I've worked on. This list is not exhaustive. Check out my Github if you want to see more.
     </p>
 </div>
 
