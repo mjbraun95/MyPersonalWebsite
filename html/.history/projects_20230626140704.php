@@ -43,9 +43,7 @@ jQuery.fn.center = function() {
         The motor driver board is controlled using GPIO pins from the Raspberry Pi. There is a direction input pin, as well as, a Pulse Width Modulation (PWM) input pin for each motor. The PWM input pins are used to control the speed of each motor. The DC motors have PWM outputs from their encoders, which are fed back into the Pi to send feedback on how many rotations each wheel does over time.
     </p>
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
-    <div class="videoWrapper">
-        <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <iframe class="vid" style="margin-right: 20px;" width="100%" height="450" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
 
 </div>

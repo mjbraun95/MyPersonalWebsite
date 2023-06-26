@@ -26,6 +26,26 @@ jQuery.fn.center = function() {
     </p>
 </div>
 
+<!-- <img src="images/Github.png" class="responsiveIcon">
+    <a href="https://github.com/mjbraun95/MusicBoard" target="_blank" class="header">Github Link</a> 
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        This is a music synthesizer. The interface was created using PyGame, and communicates with an Atmel ATMega2560 Microcontroller Board using C++, Arduino, and PySerial. The program can generate many different sound types, using combinations of different waveforms (sine, square, saw, etc.). You can make as many synth noises as you'd like, and compare them side-by-side. You can also hold down multiple keys at the same time to play chords.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        The synthesizer also includes features such as ADSR, LFO, and frequency range filtering.  
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        ADSR (attack, decay, sustain, release) affects the volume of the note as you hold it over time.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        LFO (low frequency oscillator) creates a "wobbly" effect on the note, so as you hold the note down, the frequency moves up and down. 
+    </p>
+    <div class="fullBox">
+        <video controls class="vid">
+            <source src="videos/MusicBoard.mp4" type="video/mp4">  
+        </video>
+    </div> -->
+
 <a name="SPR"></a>
 <h3 class="header">Seed Planting Robot</h3>
 <div class="content">
@@ -43,9 +63,7 @@ jQuery.fn.center = function() {
         The motor driver board is controlled using GPIO pins from the Raspberry Pi. There is a direction input pin, as well as, a Pulse Width Modulation (PWM) input pin for each motor. The PWM input pins are used to control the speed of each motor. The DC motors have PWM outputs from their encoders, which are fed back into the Pi to send feedback on how many rotations each wheel does over time.
     </p>
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
-    <div class="videoWrapper">
-        <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <iframe class="vid" style="margin-right: 20px;" width="560" height="315" src="https://www.youtube.com/embed/pulFcguEh7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
 
 </div>
