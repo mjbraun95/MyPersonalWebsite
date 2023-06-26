@@ -124,7 +124,6 @@ div.header{
 #navbar {
     overflow: hidden;
     background-image: linear-gradient(rgb(32, 32, 32),rgb(15, 15, 15));
-    z-index: 1000; /* High value to ensure navbar stays on top */
 }
 
 #navbar a {
