@@ -50,6 +50,31 @@ jQuery.fn.center = function() {
 
 </div>
 
+<a name="QR_Score"></a>
+<h3 class="header">QR Score</h3>
+<div class="content">
+    <img src="images/Github.png" class="responsiveIcon">
+    <a href="https://github.com/CMPUT301W22T20/QR-Score" target="_blank" class="header">Github Link</a>
+    <p style="margin: 0 auto; float: left">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        This project was made in a group of 4. In this project, we designed and developed an Android application for scanning QR codes and assigning scores to them.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        We Implemented online connectivity features, including a high score leaderboard and user account management. We also implemented a local database to store user data and scores. We used firebase to store user data and scores online.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        We also enabled users to comment on scanned QR codes, enhancing user interaction and engagement. Furthermore, we implemented a feature to allow users to scan QR codes and view the scores and comments of other users.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
+    <div class="fullBox">
+        <video controls class="vid">
+            <source src="videos/QR_Score.mkv" type="video/mp4" style="float:left; margin-right: 20px;">
+        </video>
+    </div>
+    </p>
+
+</div>
+
 <a name="3D_Printer"></a>
 <h3 class="header">3D Printer</h3>
 <div class="content">
