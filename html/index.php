@@ -28,8 +28,8 @@
         <img src="images/Doggo.png" class="responsive">
     </div>
     <p class="fullBox">
-        Currently, I am a Logistics Manager for a concrete & asphalt repair business. <br>
-        I supervise a team of 3-5 employees, ensuring that all work is completed safely and efficiently. I manage the logistics of the company, including scheduling, ordering materials, ensuring that all equipment is in working order, keeping inventory of materials and tools. I work effectively and safely in high-stress environments, in teams as well as on my own, while ensuring a safe work environment. I have gained significant experience in concrete repair, asphalt repair, and project management in this position. I have also developed a basic website for the company using HTML, CSS, and JavaScript. <br><br>
+        In the summer of 2023, I was a Project Manager for a concrete & asphalt repair business. <br>
+        I supervised a team of 3-5 employees, ensuring that all work is completed safely and efficiently. I managed the logistics of the company, including scheduling, ordering materials, ensuring that all equipment is in working order, keeping inventory of materials and tools. I worked effectively in high-stress environments, in teams as well as on my own, while ensuring a safe work environment. I have gained significant experience in project management, client consulting, conflict resolution, concrete repair, and asphalt repair in this position. I also developed a website for the company using HTML, CSS, and JavaScript. <br><br>
 
         In the Summer and Fall of 2022, I was on an 8-month internship at Alberta Electric System Operator (AESO) as an Operations Engineering Student. <br>
         During my time here, I was tasked with implementing energy market simulations in Python to model Alberta's power grid over the next 15 years as the province transitions to renewable energy. I designed UML diagrams to model the class structure of the Python simulation, the data flow between classes, and table structure of the database. I implemented tables in MS SQL for a large, complex database structure of over 100 tables to store the simulator data. I performed data collection, data analysis, and data validation on wind and solar weather data collected by SCADA systems. I applied optimization techniques to approximate values for bad and missing weather data. I modelled wind and solar facilities to simulate electrical power production based on the weather data. I worked largely on my own with minimal supervision. I gained significant experience in Data Analysis, UML Design, SCADA Systems, Database Management, Pandas, NumPy, scikit-learn and PySAM. <br><br>
@@ -42,8 +42,8 @@
         In winter of 2020, I worked for DevFacto as a Software Consultant.<br>
         I did web development work for one of their largest clients, ASEBP. I mostly did back end work on ASEBP's site using C#, .NET Framework, and SQL databases. I wrote business rules and unit tests to calculate insurance eligibility, coverage, etc. for ASEBP's clients. I also did some front end work using React Framework and Typescript. During my time there, my team and I utilized agile software development practices, such as SCRUM, daily sprints, daily stand-ups, daily meetings to consult with clients face-to-face, either in-person or over Teams. The team collaborated together using Azure DevOps and I would submit pull requests to production regularly. <br><br>
 
-        In the summer of 2019, I worked for Compugen as a Support Technician. <br>
-        I provided IT support for the Government of Alberta (Compugen's main client at the time). This involved network diagnostics, hard drive recovery, reimaging, diagnosing faulty hardware, drivers, etc. at several different Alberta Government offices. <br><br>
+        In the summer of 2019, I worked for Compugen as a Worksite Support Technician. <br>
+        I provided technical support for hundreds of Government of Alberta employees (Compugen's main client at the time). This involved troubleshooting issues such as network diagnostics, hard drive recovery, reimaging, diagnosing faulty hardware, drivers, etc. at several different Alberta Government offices. <br><br>
     </p>
 
 </div>
