@@ -7,7 +7,7 @@
         <a href="https://github.com/mjbraun95/" target="_blank" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a></li>
         <a href="https://www.linkedin.com/in/matthewbraun4/" target="_blank" <?php if ($currentPage === 'LinkedIn') {echo 'class="active"';} ?>>LinkedIn</a></li>
     </div>
-    <script src="navbar.js"></script>
+    <script src="/js/navbar.js"></script>
 </header>
 <body>
     <!-- <div class="titlehead"><h2><?php echo($title); ?></h2></div> -->
