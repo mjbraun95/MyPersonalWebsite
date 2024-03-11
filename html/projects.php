@@ -26,6 +26,31 @@ jQuery.fn.center = function() {
     </p>
 </div>
 
+<a name="SCV"></a>
+<h3 class="header">Stock Correlation Visualizer</h3>
+<div class="content">
+    <img src="images/Github.png" class="responsiveIcon">
+    <a href="https://github.com/mjbraun95/stock_correlation_visualizer" target="_blank" class="header">Github Link</a>
+    <p style="margin: 0 auto; float: left">
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        This Python script is an efficient financial analysis tool that focuses on examining the correlations between the stock returns of various companies. It utilizes the yfinance library to access historical stock data from the Yahoo Finance API, allowing users to input and manage stock tickers either manually or by loading them from a file. The script ensures that only valid stock tickers are analyzed by verifying their existence in the database.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        After fetching adjusted closing prices for the chosen tickers within a user-specified timeframe, it calculates the daily percentage changes in stock prices to determine daily returns. These returns are then used to compute a correlation matrix, which the script visualizes in a heatmap. This matrix illustrates how the returns of the selected stocks move in relation to each other, providing valuable insights for portfolio diversification and risk assessment.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
+        The interactive nature of the script allows users to easily modify their selection of tickers or the analysis timeframe, making it a versatile tool for investors and financial analysts looking to understand stock market dynamics and relationships.
+    </p>
+    <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto; text-align: center;">
+    <div class="fullBox">
+        <video controls class="vid">
+            <source src="videos/SCV.mkv" type="video/mp4" style="float:left; margin-right: 20px;">
+        </video>
+    </div>
+    </p>
+
+</div>
+
 <a name="SPR"></a>
 <h3 class="header">Seed Planting Robot</h3>
 <div class="content">
@@ -33,7 +58,6 @@ jQuery.fn.center = function() {
     <a href="https://github.com/mjbraun95/Seed_Planting_Robot" target="_blank" class="header">Github Link</a>
     <p style="margin: 0 auto; float: left">
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
-
         This project was made in a group of 4 for our Computer Engineering Capstone Project. In this project, we designed a three-wheeled robot in a group of 4 to autonomously plant seeds in a field It uses a LiDAR camera to detect objects, GPS + motors to navigate to the planting locations, and a servo motor to dispense different seed types. The navigation system was programmed in Python and largely used the adafruit_gps library to interface with the GPS module.
     </p>
     <p class="fullBox" style="padding-bottom: 20px; margin: 0 auto;">
