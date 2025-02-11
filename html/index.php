@@ -20,7 +20,7 @@
     <p class="fullBox">
         Hi! Welcome to my website. <br><br>
 
-        I have a **BSc. in Computer Engineering** from the University of Alberta and a background in IT support, software development, and technical operations. I have experience working in **FIFO rotational roles**, remote environments, and hands-on technical troubleshooting. Currently, I am seeking a **long-term, full-time position in IT support or technical operations, ideally in a role that offers overtime and FIFO scheduling.**<br><br>
+        I have a <strong>BSc. in Computer Engineering</strong> from the University of Alberta and a background in IT support, software development, and technical operations. I have experience working in <strong>FIFO rotational roles</strong>, remote environments, and hands-on technical troubleshooting. Currently, I am seeking a <strong>long-term, full-time position in IT support or technical operations, ideally in a role that offers overtime and FIFO scheduling.</strong><br><br>
     </p>
     
     <div class="fullBox">
@@ -28,22 +28,23 @@
     </div>
     
     <p class="fullBox">
-        **Current Role: Project Manager – Crack Chaser Repair Solutions (Seasonal Role)** <br>
-        Since **2015**, I have worked seasonally at **Crack Chaser Repair Solutions**, a concrete and asphalt repair company. Since **2019**, I have been managing projects, leading crews of **3-5 employees**, and ensuring work is completed safely and efficiently. My role includes **handling logistics, equipment maintenance, and project execution**.<br><br>
+        <strong>Current Role: Project Manager – Crack Chaser Repair Solutions (Seasonal Role)</strong> <br>
+        Since <strong>2015</strong>, I have worked seasonally at <strong>Crack Chaser Repair Solutions</strong>, a concrete and asphalt repair company. Since <strong>2019</strong>, I have been managing projects, leading crews of <strong>4-7 employees</strong>, and ensuring work is completed safely and efficiently. My role includes <strong>handling logistics, equipment maintenance, and project execution</strong>.<br><br>
         
-        In addition to field operations, I **developed and maintain the company’s website** using **PHP, HTML, CSS, and JavaScript**, supporting its online presence and business operations. While I have enjoyed my time at Crack Chaser, I am now **seeking long-term employment in IT support or technical operations, where I can gain deeper industry experience and grow within a company for multiple years.** <br><br>
+        In addition to field operations, I <strong>developed and maintain the company’s website</strong> using <strong>PHP, HTML, CSS, and JavaScript</strong>, supporting its online presence and business operations. While I have enjoyed my time at Crack Chaser, I am now <strong>seeking long-term employment in IT support or technical operations, where I can gain deeper industry experience and grow within a company for multiple years.</strong> <br><br>
 
-        **IT & Software Engineering Experience:** <br>
-        I previously worked as an **Operations Engineering Student at AESO (Alberta Electric System Operator)**. My role involved developing **Python-based automation scripts** for Alberta’s power grid simulations and optimizing a large-scale **MS SQL database (100+ tables)**. I also used **Power BI and machine learning** to analyze renewable energy trends and infrastructure performance. <br><br>
+        <strong>IT & Software Engineering Experience:</strong> <br>
+        I previously worked as an <strong>Operations Engineering Student at AESO (Alberta Electric System Operator)</strong>. My role involved developing <strong>Python-based automation scripts</strong> for Alberta’s power grid simulations and optimizing a large-scale <strong>MS SQL database (100+ tables)</strong>. I also used <strong>Power BI and machine learning</strong> to analyze renewable energy trends and infrastructure performance. <br><br>
 
-        At **BC Hydro**, I worked in a **FIFO remote rotational role** (**14/14 and 21/7 schedules**) at the **Site C Hydroelectric Dam**. I performed **12-hour shifts in underground tunnels**, ensuring structural concrete repairs were executed safely. The job required **using two-way radio communication, operating heavy machinery (skid steers, boom lifts), and coordinating with large teams**. <br><br>
+        At <strong>BC Hydro</strong>, I worked in a <strong>FIFO remote rotational role</strong> (<strong>14/14 and 21/7 schedules</strong>) at the <strong>Site C Hydroelectric Dam</strong>. I performed <strong>12-hour shifts in underground tunnels</strong>, ensuring structural concrete repairs were executed safely. The job required <strong>using two-way radio communication, operating heavy machinery (skid steers, boom lifts), and coordinating with large teams</strong>. <br><br>
 
-        In **Winter 2020**, I worked as a **Software Consultant at DevFacto**, developing backend business logic using **C#, .NET, and SQL databases** for ASEBP’s insurance platform. I also gained experience with **React, TypeScript, and Agile methodologies** while working closely with clients. <br><br>
+        In <strong>Winter 2020</strong>, I worked as a <strong>Software Consultant at DevFacto</strong>, developing backend business logic using <strong>C#, .NET, and SQL databases</strong> for ASEBP’s insurance platform. I also gained experience with <strong>React, TypeScript, and Agile methodologies</strong> while working closely with clients. <br><br>
 
-        My **first IT role** was at **Compugen Inc.** as a **Worksite Support Technician**, providing **hardware and software troubleshooting** for **hundreds of Government of Alberta employees**. I diagnosed **networking issues, reimaged machines, configured Microsoft 365 accounts, and resolved security policy concerns** across multiple office locations. <br><br>
+        My <strong>first IT role</strong> was at <strong>Compugen Inc.</strong> as a <strong>Worksite Support Technician</strong>, providing <strong>hardware and software troubleshooting</strong> for <strong>hundreds of Government of Alberta employees</strong>. I diagnosed <strong>networking issues, reimaged machines, configured Microsoft 365 accounts, and resolved security policy concerns</strong> across multiple office locations. <br><br>
 
-        This combination of **IT support, software engineering, and hands-on operational experience** allows me to quickly **adapt to new environments, troubleshoot effectively, and work both independently and as part of a team**. **I am eager to secure a long-term IT position where I can contribute my technical expertise while gaining valuable industry experience over multiple years.** <br><br>
+        This combination of <strong>IT support, software engineering, and hands-on operational experience</strong> allows me to quickly <strong>adapt to new environments, troubleshoot effectively, and work both independently and as part of a team</strong>. <strong>I am eager to secure a long-term IT position where I can contribute my technical expertise while gaining valuable industry experience over multiple years.</strong> <br><br>
     </p>
 </div>
+
 </body>
 </html>
