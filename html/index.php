@@ -29,7 +29,7 @@
     
     <p class="fullBox">
         <strong>Current Role: Project Manager – Crack Chaser Repair Solutions (Seasonal Role)</strong> <br>
-        Since <strong>2015</strong>, I have worked seasonally at <strong>Crack Chaser Repair Solutions</strong>, a concrete and asphalt repair company. Since <strong>2019</strong>, I have been managing projects, leading crews of <strong>4-7 employees</strong>, and ensuring work is completed safely and efficiently. My role includes <strong>handling logistics, equipment maintenance, and project execution</strong>.<br><br>
+        Since <strong>2015</strong>, I have worked seasonally at <strong>Crack Chaser Repair Solutions</strong>, a concrete and asphalt repair company. Since <strong>2019</strong>, I have been managing projects, leading crews of <strong>3-5 employees</strong>, and ensuring work is completed safely and efficiently. My role includes <strong>handling logistics, equipment maintenance, and project execution</strong>.<br><br>
         
         In addition to field operations, I <strong>developed and maintain the company’s website</strong> using <strong>PHP, HTML, CSS, and JavaScript</strong>, supporting its online presence and business operations. While I have enjoyed my time at Crack Chaser, I am now <strong>seeking long-term employment in IT support or technical operations</strong>, where I can apply my problem-solving skills and technical expertise in a fast-paced environment. <br><br>
 
